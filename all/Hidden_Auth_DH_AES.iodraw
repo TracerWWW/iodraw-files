@@ -1,68 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2026-01-24" agent="ChatGPT" version="20.8.23">
-  <diagram name="Hidden Authentication and Secure Communication">
-    <mxGraphModel dx="1400" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1">
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0" version="24.7.17">
+  <diagram name="Hidden Authentication and Secure Communication" id="0">
+    <mxGraphModel dx="1489" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
-
-        <!-- Host -->
-        <mxCell id="host" value="Host" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F7FA;strokeColor=#4A6FA5;fontSize=14;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="120" y="40" width="120" height="40" as="geometry"/>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="host" value="Host" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F7FA;strokeColor=#4A6FA5;fontSize=14;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="120" y="40" width="120" height="40" as="geometry" />
         </mxCell>
-
-        <!-- Sensor -->
-        <mxCell id="sensor" value="Sensor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F7FA;strokeColor=#4A6FA5;fontSize=14;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="520" y="40" width="120" height="40" as="geometry"/>
+        <mxCell id="sensor" value="Sensor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F7FA;strokeColor=#4A6FA5;fontSize=14;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="520" y="40" width="120" height="40" as="geometry" />
         </mxCell>
-
-        <!-- Lifelines -->
-        <mxCell id="hl" style="shape=line;strokeWidth=1.5;strokeColor=#B0B7C3" vertex="1" parent="1">
-          <mxGeometry x="180" y="80" width="0" height="620" as="geometry"/>
+        <mxCell id="hl" style="shape=line;strokeWidth=1.5;strokeColor=#B0B7C3" parent="1" vertex="1">
+          <mxGeometry x="180" y="80" height="620" as="geometry" />
         </mxCell>
-
-        <mxCell id="sl" style="shape=line;strokeWidth=1.5;strokeColor=#B0B7C3" vertex="1" parent="1">
-          <mxGeometry x="580" y="80" width="0" height="620" as="geometry"/>
+        <mxCell id="sl" style="shape=line;strokeWidth=1.5;strokeColor=#B0B7C3" parent="1" vertex="1">
+          <mxGeometry x="580" y="80" height="620" as="geometry" />
         </mxCell>
-
-        <!-- Phase 1 -->
-        <mxCell id="p1" value="Phase 1  Identity Authentication" style="rounded=1;fillColor=#EAECEF;strokeColor=none;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="80" y="100" width="640" height="30" as="geometry"/>
+        <mxCell id="p1" value="Phase 1  Identity Authentication" style="rounded=1;fillColor=#EAECEF;strokeColor=none;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="80" y="100" width="640" height="30" as="geometry" />
         </mxCell>
-
-        <mxCell id="m1" value="ACCESS_REQ (ID)" style="endArrow=block;strokeWidth=1.2" edge="1" parent="1" source="hl" target="sl">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="m1" value="ACCESS_REQ (ID)" style="endArrow=block;strokeWidth=1.2" parent="1" source="hl" target="sl" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <mxCell id="m2" value="S = H(ID ⊕ C)" style="endArrow=block;dashed=1;strokeWidth=1.2" edge="1" parent="1" source="sl" target="hl">
-          <mxGeometry y="40" relative="1" as="geometry"/>
+        <mxCell id="m2" value="S = H(ID ⊕ C)" style="endArrow=block;dashed=1;strokeWidth=1.2" parent="1" source="sl" target="hl" edge="1">
+          <mxGeometry y="40" relative="1" as="geometry" />
         </mxCell>
-
-        <mxCell id="m3" value="R′ = H(P ⊕ S)" style="endArrow=block;dashed=1;strokeWidth=1.2" edge="1" parent="1" source="hl" target="sl">
-          <mxGeometry y="80" relative="1" as="geometry"/>
+        <mxCell id="m3" value="R′ = H(P ⊕ S)" style="endArrow=block;dashed=1;strokeWidth=1.2" parent="1" source="hl" target="sl" edge="1">
+          <mxGeometry y="80" relative="1" as="geometry" />
         </mxCell>
-
-        <!-- Phase 2 -->
-        <mxCell id="p2" value="Phase 2  Hidden Diffie–Hellman Key Exchange" style="rounded=1;fillColor=#EAECEF;strokeColor=none;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="80" y="260" width="640" height="30" as="geometry"/>
+        <mxCell id="p2" value="Phase 2  Hidden Diffie–Hellman Key Exchange" style="rounded=1;fillColor=#EAECEF;strokeColor=none;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="80" y="260" width="640" height="30" as="geometry" />
         </mxCell>
-
-        <mxCell id="m4" value="A = gᵃ mod p (hidden)" style="endArrow=block;dashed=1;strokeWidth=1.2" edge="1" parent="1" source="sl" target="hl">
-          <mxGeometry y="200" relative="1" as="geometry"/>
+        <mxCell id="m4" value="A = gᵃ mod p (hidden)" style="endArrow=block;dashed=1;strokeWidth=1.2" parent="1" source="sl" target="hl" edge="1">
+          <mxGeometry y="200" relative="1" as="geometry" />
         </mxCell>
-
-        <mxCell id="m5" value="B = gᵇ mod p (hidden)" style="endArrow=block;dashed=1;strokeWidth=1.2" edge="1" parent="1" source="hl" target="sl">
-          <mxGeometry y="240" relative="1" as="geometry"/>
+        <mxCell id="m5" value="B = gᵇ mod p (hidden)" style="endArrow=block;dashed=1;strokeWidth=1.2" parent="1" source="hl" target="sl" edge="1">
+          <mxGeometry y="240" relative="1" as="geometry" />
         </mxCell>
-
-        <!-- Phase 3 -->
-        <mxCell id="p3" value="Phase 3  AES-GCM Encrypted Communication" style="rounded=1;fillColor=#EAECEF;strokeColor=none;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="80" y="420" width="640" height="30" as="geometry"/>
+        <mxCell id="p3" value="Phase 3  AES-GCM Encrypted Communication" style="rounded=1;fillColor=#EAECEF;strokeColor=none;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="80" y="420" width="640" height="30" as="geometry" />
         </mxCell>
-
-        <mxCell id="m6" value="SECRET = AES-256-GCM(kr, data)" style="endArrow=block;dashed=1;strokeWidth=1.2" edge="1" parent="1" source="sl" target="hl">
-          <mxGeometry y="360" relative="1" as="geometry"/>
+        <mxCell id="m6" value="SECRET = AES-256-GCM(kr, data)" style="endArrow=block;dashed=1;strokeWidth=1.2" parent="1" source="sl" target="hl" edge="1">
+          <mxGeometry y="360" relative="1" as="geometry" />
         </mxCell>
-
       </root>
     </mxGraphModel>
   </diagram>
