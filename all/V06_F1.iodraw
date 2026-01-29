@@ -59,7 +59,7 @@
           <mxGeometry x="325" y="440" width="120" height="62" as="geometry" />
         </mxCell>
         <mxCell id="nN" value="Output result" style="rounded=1;shadow=1;whiteSpace=wrap;html=1;fillColor=#FFE4E6;strokeColor=#E11D48;fontColor=#111827;fontFamily=Times New Roman;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="565" y="430" width="150" height="52" as="geometry" />
+          <mxGeometry x="570" y="445" width="150" height="52" as="geometry" />
         </mxCell>
         <mxCell id="lgTitle" value="Legend" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#111827;fontFamily=Times New Roman;fontSize=11;fontStyle=1;align=left;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="921" y="54" width="140" height="18" as="geometry" />
