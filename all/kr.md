@@ -10,16 +10,18 @@ sequenceDiagram
     rect rgba(220,220,220,0.35)
     Note over Host,Sensor: Phase 1 — Identity Authentication
 
+    
+
     Host->>Sensor: ACCESS_REQ(ID)
 
     Note right of Sensor: C ← random
     Note right of Sensor: S = H(ID ⊕ C)
 
-    Sensor-->>Host: CHALLENGE_S (S, hidd)
+    Sensor-->>Host: CHALLENGE_S (S)
 
     Note left of Host: R' = H(P ⊕ S)
 
-    Host-->>Sensor: AUTH_RPRIME (R', hidden)
+    Host-->>Sensor: AUTH_RPRIME (R')
 
     Note right of Sensor: verify R' == H(P ⊕ S)
 
