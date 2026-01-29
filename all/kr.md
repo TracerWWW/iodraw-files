@@ -15,7 +15,7 @@ sequenceDiagram
     Note right of Sensor: C ← random
     Note right of Sensor: S = H(ID ⊕ C)
 
-    Sensor-->>Host: CHALLENGE_S (S)  hidden
+    Sensor-->>Host: CHALLENGE_S (S, hidden)
 
     Note left of Host: R' = H(P ⊕ S)
 
