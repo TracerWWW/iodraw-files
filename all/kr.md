@@ -15,11 +15,11 @@ sequenceDiagram
     Note right of Sensor: C ← random
     Note right of Sensor: S = H(ID ⊕ C)
 
-    Sensor-->>Host: CHALLENGE_S (S, hidden)
+    Sensor-->>Host: CHALLENGE_S (S, hidd)
 
     Note left of Host: R' = H(P ⊕ S)
 
-    Host-->>Sensor: AUTH_RPRIME (R') %% hidden
+    Host-->>Sensor: AUTH_RPRIME (R', hidden)
 
     Note right of Sensor: verify R' == H(P ⊕ S)
 
