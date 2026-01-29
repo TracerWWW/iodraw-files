@@ -10,7 +10,7 @@ sequenceDiagram
     rect rgba(220,220,220,0.35)
     Note over Host,Sensor: Phase 1 — Identity Authentication
 
-    Note right of Sensor: ← random
+    Note right of Sensor: K = ndom
 
     Host->>Sensor: ACCESS_REQ(ID)
 
