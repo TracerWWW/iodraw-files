@@ -11,7 +11,7 @@ sequenceDiagram
     Note over Host,Sensor: Phase 1 — Identity Authentication
 
     Note left of Host: K=H(P)
-    Note right of Host: K=H(P)
+    Note right of s: K=H(P)
 
     Host->>Sensor: ACCESS_REQ(ID)
 
