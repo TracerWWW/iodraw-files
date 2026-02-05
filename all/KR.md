@@ -10,7 +10,7 @@ sequenceDiagram
     rect rgb(240,240,240)
     Note over Host,Sensor: Phase 1 — Identity Authentication
 
-    Note right of Host: K=H(P)
+    Note left of Host: K=H(P)
 
     Host->>Sensor: ACCESS_REQ(ID)
 
