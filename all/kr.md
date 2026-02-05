@@ -24,7 +24,7 @@ sequenceDiagram
 
     Host-->>Sensor: AUTH_RPRIME (R')
 
-    Note right of Sensor: verify R' == H(P ⊕ S)
+    Note right of Sensor: verify R' == H(K ⊕ S)
 
     Sensor-->>Host: Auth OK
     end
