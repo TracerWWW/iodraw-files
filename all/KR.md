@@ -10,7 +10,8 @@ sequenceDiagram
     rect rgb(240,240,240)
     Note over Host,Sensor: Phase 1 — Identity Authentication
 
-    
+    Note right of H: C ← random
+
     Host->>Sensor: ACCESS_REQ(ID)
 
     Note right of Sensor: C ← random
