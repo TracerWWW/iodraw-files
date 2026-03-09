@@ -115,7 +115,7 @@
           <mxGeometry x="200" y="508" width="460" height="20" as="geometry" />
         </mxCell>
         <mxCell id="p3_enc" value="C = AES-256-GCM(kr, M)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=9;rounded=1;arcSize=20;" parent="1" vertex="1">
-          <mxGeometry x="731" y="522" width="148" height="22" as="geometry" />
+          <mxGeometry x="742" y="539" width="126" height="22" as="geometry" />
         </mxCell>
         <mxCell id="msg7" value="⑦ SECRET_HIDDEN (ciphertext, hidden in ECG)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="180" y="552" width="480" height="16" as="geometry" />
