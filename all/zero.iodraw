@@ -88,7 +88,7 @@
           <mxGeometry x="55" y="308" width="800" height="175" as="geometry" />
         </mxCell>
         <mxCell id="phase2_label" value="Phase 2 — Hidden DH Key Exchange" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#555555;" parent="1" vertex="1">
-          <mxGeometry x="202" y="295" width="460" height="20" as="geometry" />
+          <mxGeometry x="200" y="343" width="460" height="20" as="geometry" />
         </mxCell>
         <mxCell id="p2_sa" value="a ← random&#xa;A = g^a mod p" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=9;rounded=1;arcSize=20;" parent="1" vertex="1">
           <mxGeometry x="726" y="336" width="110" height="34" as="geometry" />
