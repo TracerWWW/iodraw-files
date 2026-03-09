@@ -134,21 +134,21 @@
         </mxCell>
         <mxCell id="legend1" value="" style="endArrow=open;endSize=8;strokeColor=#333333;strokeWidth=1.5;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="200" y="649" as="sourcePoint" />
-            <mxPoint x="260" y="649" as="targetPoint" />
+            <mxPoint x="290" y="727" as="sourcePoint" />
+            <mxPoint x="350" y="727" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="legend1_text" value="Plaintext" style="text;html=1;fontSize=9;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="265" y="641" width="60" height="18" as="geometry" />
+          <mxGeometry x="355" y="719" width="60" height="18" as="geometry" />
         </mxCell>
         <mxCell id="legend2" value="" style="endArrow=open;endSize=8;strokeColor=#333333;strokeWidth=1.5;dashed=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="350" y="649" as="sourcePoint" />
-            <mxPoint x="410" y="649" as="targetPoint" />
+            <mxPoint x="440" y="727" as="sourcePoint" />
+            <mxPoint x="500" y="727" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="legend2_text" value="Hidden in ECG" style="text;html=1;fontSize=9;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="415" y="641" width="90" height="18" as="geometry" />
+          <mxGeometry x="505" y="719" width="90" height="18" as="geometry" />
         </mxCell>
         <mxCell id="host_foot" value="Host" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="80" y="660" width="100" height="36" as="geometry" />
