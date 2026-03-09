@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="24.7.17">
   <diagram name="Protocol" id="protocol">
-    <mxGraphModel dx="1226" dy="658" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="900" pageHeight="700" math="1" shadow="0">
+    <mxGraphModel dx="1626" dy="658" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="900" pageHeight="700" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -73,7 +73,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="p1_verify" value="verify: R′ == H(P ⊕ S)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=9;rounded=1;arcSize=20;" parent="1" vertex="1">
-          <mxGeometry x="726" y="286" width="120" height="22" as="geometry" />
+          <mxGeometry x="-185" y="236" width="120" height="22" as="geometry" />
         </mxCell>
         <mxCell id="msg4" value="④ Auth OK" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="300" y="310" width="260" height="16" as="geometry" />
@@ -83,9 +83,6 @@
             <mxPoint x="730" y="325" as="sourcePoint" />
             <mxPoint x="130" y="325" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="phase2_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#cccccc;opacity=50;" parent="1" vertex="1">
-          <mxGeometry x="55" y="304" width="800" height="175" as="geometry" />
         </mxCell>
         <mxCell id="phase2_label" value="Phase 2 — Hidden DH Key Exchange" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#555555;" parent="1" vertex="1">
           <mxGeometry x="200" y="343" width="460" height="20" as="geometry" />
