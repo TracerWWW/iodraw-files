@@ -97,7 +97,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="p2_hb" value="b ← random&lt;br&gt;B = g^b mod p&lt;br&gt;kr = KDF(A^b)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=9;rounded=1;arcSize=20;" parent="1" vertex="1">
-          <mxGeometry x="40" y="405" width="89" height="46" as="geometry" />
+          <mxGeometry x="29.5" y="401" width="89" height="46" as="geometry" />
         </mxCell>
         <mxCell id="msg6" value="⑥ DH_M2 (B, hidden in ECG)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="237" y="447" width="400" height="16" as="geometry" />
@@ -152,6 +152,9 @@
         </mxCell>
         <mxCell id="sensor_foot" value="Sensor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="680" y="660" width="100" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="dRtruK2TQ1c5UfqO_LyD-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.651;entryY=1.098;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="p3_dec" target="p3_dec">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
