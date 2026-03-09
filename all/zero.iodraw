@@ -100,7 +100,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="p2_hb" value="b ← random&#xa;B = g^b mod p&#xa;k_r = KDF(A^b)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=9;rounded=1;arcSize=20;" parent="1" vertex="1">
-          <mxGeometry x="62" y="398" width="110" height="46" as="geometry" />
+          <mxGeometry x="11" y="407" width="110" height="46" as="geometry" />
         </mxCell>
         <mxCell id="msg6" value="⑥ DH_M2 (B, hidden in ECG)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="200" y="450" width="400" height="16" as="geometry" />
