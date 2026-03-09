@@ -109,7 +109,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="p2_skr" value="kr = KDF(B^a)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=9;rounded=1;arcSize=20;" parent="1" vertex="1">
-          <mxGeometry x="747" y="483" width="110" height="22" as="geometry" />
+          <mxGeometry x="747" y="481" width="110" height="22" as="geometry" />
         </mxCell>
         <mxCell id="phase3_label" value="Phase 3 — AES-GCM Encrypted Communication" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#555555;" parent="1" vertex="1">
           <mxGeometry x="200" y="508" width="460" height="20" as="geometry" />
