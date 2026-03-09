@@ -46,7 +46,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="p1_cs" value="C ← random&#xa;S = H(ID ⊕ C)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=12;rounded=1;arcSize=20;" parent="1" vertex="1">
-          <mxGeometry x="752" y="199" width="113" height="34" as="geometry" />
+          <mxGeometry x="752" y="199" width="113" height="43" as="geometry" />
         </mxCell>
         <mxCell id="msg2" value="② CHALLENGE_S (S, hidden in ECG)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="230" y="214" width="400" height="16" as="geometry" />
@@ -70,7 +70,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="p1_verify" value="verify: R′ == H(P ⊕ S)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=12;rounded=1;arcSize=20;" parent="1" vertex="1">
-          <mxGeometry x="745" y="299" width="120" height="22" as="geometry" />
+          <mxGeometry x="745" y="299" width="150" height="22" as="geometry" />
         </mxCell>
         <mxCell id="msg4" value="④ Auth OK" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="300" y="305" width="260" height="16" as="geometry" />
@@ -85,7 +85,7 @@
           <mxGeometry x="200" y="348" width="460" height="20" as="geometry" />
         </mxCell>
         <mxCell id="p2_sa" value="a ← random&#xa;A = g^a mod p" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=12;rounded=1;arcSize=20;" parent="1" vertex="1">
-          <mxGeometry x="750" y="348" width="110" height="34" as="geometry" />
+          <mxGeometry x="750" y="348" width="110" height="38" as="geometry" />
         </mxCell>
         <mxCell id="msg5" value="⑤ DH_M1 (A, hidden in ECG)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="230" y="371" width="400" height="16" as="geometry" />
