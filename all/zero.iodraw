@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="24.7.17">
   <diagram name="Protocol" id="protocol">
-    <mxGraphModel dx="1587" dy="618" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="900" pageHeight="700" math="1" shadow="0">
+    <mxGraphModel dx="1905" dy="771" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="900" pageHeight="700" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -85,7 +85,7 @@
           <mxGeometry x="200" y="348" width="460" height="20" as="geometry" />
         </mxCell>
         <mxCell id="p2_sa" value="a ← random&#xa;A = g^a mod p" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=12;rounded=1;arcSize=20;" parent="1" vertex="1">
-          <mxGeometry x="750" y="348" width="110" height="38" as="geometry" />
+          <mxGeometry x="750" y="348" width="124" height="38" as="geometry" />
         </mxCell>
         <mxCell id="msg5" value="⑤ DH_M1 (A, hidden in ECG)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="230" y="371" width="400" height="16" as="geometry" />
@@ -109,13 +109,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="p2_skr" value="kr = KDF(B^a)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=12;rounded=1;arcSize=20;" parent="1" vertex="1">
-          <mxGeometry x="747" y="481" width="110" height="22" as="geometry" />
+          <mxGeometry x="747" y="481" width="121" height="22" as="geometry" />
         </mxCell>
         <mxCell id="phase3_label" value="Phase 3 — AES-GCM Encrypted Communication" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#555555;" parent="1" vertex="1">
           <mxGeometry x="218.5" y="519" width="460" height="20" as="geometry" />
         </mxCell>
         <mxCell id="p3_enc" value="C = AES-256-GCM(kr, M)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=12;rounded=1;arcSize=20;" parent="1" vertex="1">
-          <mxGeometry x="742" y="539" width="126" height="22" as="geometry" />
+          <mxGeometry x="742" y="539" width="174" height="22" as="geometry" />
         </mxCell>
         <mxCell id="msg7" value="⑦ SECRET_HIDDEN (ciphertext, hidden in ECG)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="208.5" y="549" width="480" height="16" as="geometry" />
@@ -127,7 +127,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="p3_dec" value="M = AES-GCM⁻¹(kr, C)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=12;rounded=1;arcSize=20;" parent="1" vertex="1">
-          <mxGeometry x="23" y="599" width="102" height="22" as="geometry" />
+          <mxGeometry x="-34" y="599" width="159" height="22" as="geometry" />
         </mxCell>
         <mxCell id="legend1" value="" style="endArrow=open;endSize=8;strokeColor=#333333;strokeWidth=1.5;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
