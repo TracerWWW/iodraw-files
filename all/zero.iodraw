@@ -91,7 +91,7 @@
           <mxGeometry x="736" y="343" width="110" height="34" as="geometry" />
         </mxCell>
         <mxCell id="msg5" value="⑤ DH_M1 (A, hidden in ECG)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="226" y="370" width="400" height="16" as="geometry" />
+          <mxGeometry x="248.5" y="371" width="400" height="16" as="geometry" />
         </mxCell>
         <mxCell id="arr5" value="" style="endArrow=open;endSize=8;strokeColor=#333333;strokeWidth=1.5;dashed=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -111,14 +111,14 @@
             <mxPoint x="732" y="465" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p2_skr" value="k_r = KDF(B^a)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=9;rounded=1;arcSize=20;" parent="1" vertex="1">
+        <mxCell id="p2_skr" value="kr = KDF(B^a)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=9;rounded=1;arcSize=20;" parent="1" vertex="1">
           <mxGeometry x="747" y="483" width="110" height="22" as="geometry" />
         </mxCell>
         <mxCell id="phase3_label" value="Phase 3 — AES-GCM Encrypted Communication" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#555555;" parent="1" vertex="1">
           <mxGeometry x="200" y="508" width="460" height="20" as="geometry" />
         </mxCell>
         <mxCell id="p3_enc" value="C = AES-256-GCM(k_r, M)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=9;rounded=1;arcSize=20;" parent="1" vertex="1">
-          <mxGeometry x="706" y="530" width="148" height="22" as="geometry" />
+          <mxGeometry x="745" y="533" width="148" height="22" as="geometry" />
         </mxCell>
         <mxCell id="msg7" value="⑦ SECRET_HIDDEN (ciphertext, hidden in ECG)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="160" y="558" width="480" height="16" as="geometry" />
