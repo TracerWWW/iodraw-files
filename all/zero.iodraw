@@ -127,7 +127,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="p3_dec" value="M = AES-GCM⁻¹(kr, C)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=9;rounded=1;arcSize=20;" parent="1" vertex="1">
-          <mxGeometry x="23" y="602" width="102" height="22" as="geometry" />
+          <mxGeometry x="23" y="599" width="102" height="22" as="geometry" />
         </mxCell>
         <mxCell id="legend1" value="" style="endArrow=open;endSize=8;strokeColor=#333333;strokeWidth=1.5;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
