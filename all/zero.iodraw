@@ -31,7 +31,7 @@
           <mxGeometry x="200" y="104" width="460" height="20" as="geometry" />
         </mxCell>
         <mxCell id="p1_note1" value="K = H(P)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=12;rounded=1;arcSize=20;" parent="1" vertex="1">
-          <mxGeometry x="38" y="117" width="72" height="22" as="geometry" />
+          <mxGeometry x="38" y="117" width="72" height="23" as="geometry" />
         </mxCell>
         <mxCell id="p1_note2" value="K = H(P)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=12;rounded=1;arcSize=20;" parent="1" vertex="1">
           <mxGeometry x="766" y="117" width="72" height="22" as="geometry" />
