@@ -30,103 +30,103 @@
         <mxCell id="phase1_label" value="Phase 1 — Identity Authentication" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#555555;" parent="1" vertex="1">
           <mxGeometry x="200" y="104" width="460" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p1_note1" value="K = H(P)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=9;rounded=1;arcSize=20;" parent="1" vertex="1">
+        <mxCell id="p1_note1" value="K = H(P)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=13;rounded=1;arcSize=20;" parent="1" vertex="1">
           <mxGeometry x="38" y="117" width="72" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="p1_note2" value="K = H(P)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=9;rounded=1;arcSize=20;" parent="1" vertex="1">
+        <mxCell id="p1_note2" value="K = H(P)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=13;rounded=1;arcSize=20;" parent="1" vertex="1">
           <mxGeometry x="766" y="117" width="72" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="msg1" value="① ACCESS_REQ(ID)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=9;" parent="1" vertex="1">
+        <mxCell id="msg1" value="① ACCESS_REQ(ID)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="230" y="154" width="400" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="arr1" value="" style="endArrow=open;endSize=8;strokeColor=#333333;strokeWidth=1.5;" parent="1" edge="1">
+        <mxCell id="arr1" value="" style="endArrow=open;endSize=8;strokeColor=#333333;strokeWidth=1.5;fontSize=13;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="130" y="177" as="sourcePoint" />
             <mxPoint x="730" y="177" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p1_cs" value="C ← random&#xa;S = H(ID ⊕ C)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=9;rounded=1;arcSize=20;" parent="1" vertex="1">
+        <mxCell id="p1_cs" value="C ← random&#xa;S = H(ID ⊕ C)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=13;rounded=1;arcSize=20;" parent="1" vertex="1">
           <mxGeometry x="752" y="199" width="100" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="msg2" value="② CHALLENGE_S (S, hidden in ECG)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=9;" parent="1" vertex="1">
+        <mxCell id="msg2" value="② CHALLENGE_S (S, hidden in ECG)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="230" y="214" width="400" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="arr2" value="" style="endArrow=open;endSize=8;strokeColor=#333333;strokeWidth=1.5;dashed=1;" parent="1" edge="1">
+        <mxCell id="arr2" value="" style="endArrow=open;endSize=8;strokeColor=#333333;strokeWidth=1.5;dashed=1;fontSize=13;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="730" y="234" as="sourcePoint" />
             <mxPoint x="130" y="234" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p1_r" value="R′ = H(P ⊕ S)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=9;rounded=1;arcSize=20;" parent="1" vertex="1">
+        <mxCell id="p1_r" value="R′ = H(P ⊕ S)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=13;rounded=1;arcSize=20;" parent="1" vertex="1">
           <mxGeometry x="38" y="252" width="73" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="msg3" value="③ AUTH_RPRIME (R′, hidden in ECG)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=9;" parent="1" vertex="1">
+        <mxCell id="msg3" value="③ AUTH_RPRIME (R′, hidden in ECG)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="230" y="262" width="400" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="arr3" value="" style="endArrow=open;endSize=8;strokeColor=#333333;strokeWidth=1.5;dashed=1;" parent="1" edge="1">
+        <mxCell id="arr3" value="" style="endArrow=open;endSize=8;strokeColor=#333333;strokeWidth=1.5;dashed=1;fontSize=13;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="130" y="284" as="sourcePoint" />
             <mxPoint x="730" y="284" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p1_verify" value="verify: R′ == H(P ⊕ S)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=9;rounded=1;arcSize=20;" parent="1" vertex="1">
+        <mxCell id="p1_verify" value="verify: R′ == H(P ⊕ S)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=13;rounded=1;arcSize=20;" parent="1" vertex="1">
           <mxGeometry x="745" y="299" width="120" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="msg4" value="④ Auth OK" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=9;" parent="1" vertex="1">
+        <mxCell id="msg4" value="④ Auth OK" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="300" y="305" width="260" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="arr4" value="" style="endArrow=open;endSize=8;strokeColor=#333333;strokeWidth=1.5;" parent="1" edge="1">
+        <mxCell id="arr4" value="" style="endArrow=open;endSize=8;strokeColor=#333333;strokeWidth=1.5;fontSize=13;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="730" y="329" as="sourcePoint" />
             <mxPoint x="130" y="329" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="phase2_label" value="Phase 2 — Hidden DH Key Exchange" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#555555;" parent="1" vertex="1">
+        <mxCell id="phase2_label" value="Phase 2 — Hidden DH Key Exchange" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#555555;" parent="1" vertex="1">
           <mxGeometry x="200" y="348" width="460" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p2_sa" value="a ← random&#xa;A = g^a mod p" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=9;rounded=1;arcSize=20;" parent="1" vertex="1">
+        <mxCell id="p2_sa" value="a ← random&#xa;A = g^a mod p" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=13;rounded=1;arcSize=20;" parent="1" vertex="1">
           <mxGeometry x="750" y="348" width="110" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="msg5" value="⑤ DH_M1 (A, hidden in ECG)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=9;" parent="1" vertex="1">
+        <mxCell id="msg5" value="⑤ DH_M1 (A, hidden in ECG)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="230" y="371" width="400" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="arr5" value="" style="endArrow=open;endSize=8;strokeColor=#333333;strokeWidth=1.5;dashed=1;" parent="1" edge="1">
+        <mxCell id="arr5" value="" style="endArrow=open;endSize=8;strokeColor=#333333;strokeWidth=1.5;dashed=1;fontSize=13;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="730" y="392" as="sourcePoint" />
             <mxPoint x="130" y="392" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p2_hb" value="b ← random&lt;br&gt;B = g^b mod p&lt;br&gt;kr = KDF(A^b)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=9;rounded=1;arcSize=20;" parent="1" vertex="1">
+        <mxCell id="p2_hb" value="b ← random&lt;br style=&quot;font-size: 13px;&quot;&gt;B = g^b mod p&lt;br style=&quot;font-size: 13px;&quot;&gt;kr = KDF(A^b)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=13;rounded=1;arcSize=20;" parent="1" vertex="1">
           <mxGeometry x="29.5" y="401" width="89" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="msg6" value="⑥ DH_M2 (B, hidden in ECG)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=9;" parent="1" vertex="1">
+        <mxCell id="msg6" value="⑥ DH_M2 (B, hidden in ECG)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="251" y="440" width="400" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="arr6" value="" style="endArrow=open;endSize=8;strokeColor=#333333;strokeWidth=1.5;dashed=1;" parent="1" edge="1">
+        <mxCell id="arr6" value="" style="endArrow=open;endSize=8;strokeColor=#333333;strokeWidth=1.5;dashed=1;fontSize=13;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="132" y="465" as="sourcePoint" />
             <mxPoint x="732" y="465" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p2_skr" value="kr = KDF(B^a)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=9;rounded=1;arcSize=20;" parent="1" vertex="1">
+        <mxCell id="p2_skr" value="kr = KDF(B^a)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=13;rounded=1;arcSize=20;" parent="1" vertex="1">
           <mxGeometry x="747" y="481" width="110" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="phase3_label" value="Phase 3 — AES-GCM Encrypted Communication" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#555555;" parent="1" vertex="1">
+        <mxCell id="phase3_label" value="Phase 3 — AES-GCM Encrypted Communication" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#555555;" parent="1" vertex="1">
           <mxGeometry x="218.5" y="519" width="460" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p3_enc" value="C = AES-256-GCM(kr, M)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=9;rounded=1;arcSize=20;" parent="1" vertex="1">
+        <mxCell id="p3_enc" value="C = AES-256-GCM(kr, M)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=13;rounded=1;arcSize=20;" parent="1" vertex="1">
           <mxGeometry x="742" y="539" width="126" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="msg7" value="⑦ SECRET_HIDDEN (ciphertext, hidden in ECG)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=9;" parent="1" vertex="1">
+        <mxCell id="msg7" value="⑦ SECRET_HIDDEN (ciphertext, hidden in ECG)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="208.5" y="549" width="480" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="arr7" value="" style="endArrow=open;endSize=8;strokeColor=#333333;strokeWidth=1.5;dashed=1;" parent="1" edge="1">
+        <mxCell id="arr7" value="" style="endArrow=open;endSize=8;strokeColor=#333333;strokeWidth=1.5;dashed=1;fontSize=13;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="730" y="574" as="sourcePoint" />
             <mxPoint x="130" y="574" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p3_dec" value="M = AES-GCM⁻¹(kr, C)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=9;rounded=1;arcSize=20;" parent="1" vertex="1">
+        <mxCell id="p3_dec" value="M = AES-GCM⁻¹(kr, C)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=13;rounded=1;arcSize=20;" parent="1" vertex="1">
           <mxGeometry x="23" y="599" width="102" height="22" as="geometry" />
         </mxCell>
         <mxCell id="legend1" value="" style="endArrow=open;endSize=8;strokeColor=#333333;strokeWidth=1.5;" parent="1" edge="1">
