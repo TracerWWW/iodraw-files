@@ -1,0 +1,217 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="draw.io" version="21.0.0">
+  <diagram name="Protocol" id="protocol">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="900" pageHeight="700" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- ========== 标题 ========== -->
+        <mxCell id="title" value="Covert Secure Communication Protocol" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="10" width="560" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- ========== 参与者头部 ========== -->
+        <!-- Host 头部 -->
+        <mxCell id="host_head" value="Host" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="80" y="50" width="100" height="36" as="geometry" />
+        </mxCell>
+        <!-- Sensor 头部 -->
+        <mxCell id="sensor_head" value="Sensor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="680" y="50" width="100" height="36" as="geometry" />
+        </mxCell>
+
+        <!-- ========== 生命线 ========== -->
+        <mxCell id="host_line" value="" style="endArrow=none;dashed=1;strokeColor=#6c8ebf;strokeWidth=1.5;" edge="1" parent="1">
+          <mxGeometry x="130" y="86" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="130" y="86" as="sourcePoint" />
+            <mxPoint x="130" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sensor_line" value="" style="endArrow=none;dashed=1;strokeColor=#82b366;strokeWidth=1.5;" edge="1" parent="1">
+          <mxGeometry x="730" y="86" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="730" y="86" as="sourcePoint" />
+            <mxPoint x="730" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- ========== Phase 1 背景框 ========== -->
+        <mxCell id="phase1_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#cccccc;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="55" y="100" width="800" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1_label" value="Phase 1 — Identity Authentication" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#555555;" vertex="1" parent="1">
+          <mxGeometry x="200" y="104" width="460" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Phase 1 注释 -->
+        <mxCell id="p1_note1" value="K = H(P)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=9;rounded=1;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="62" y="126" width="72" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_note2" value="K = H(P)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=9;rounded=1;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="726" y="126" width="72" height="22" as="geometry" />
+        </mxCell>
+
+        <!-- ACCESS_REQ -->
+        <mxCell id="msg1" value="① ACCESS_REQ(ID)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="230" y="155" width="400" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="arr1" value="" style="endArrow=open;endSize=8;strokeColor=#333333;strokeWidth=1.5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="172" as="sourcePoint" />
+            <mxPoint x="730" y="172" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Sensor生成C,S -->
+        <mxCell id="p1_cs" value="C ← random&#xa;S = H(ID ⊕ C)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=9;rounded=1;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="726" y="178" width="100" height="34" as="geometry" />
+        </mxCell>
+
+        <!-- CHALLENGE_S -->
+        <mxCell id="msg2" value="② CHALLENGE_S (S, hidden in ECG)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="200" y="218" width="400" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="arr2" value="" style="endArrow=open;endSize=8;strokeColor=#333333;strokeWidth=1.5;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="234" as="sourcePoint" />
+            <mxPoint x="130" y="234" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Host 计算R' -->
+        <mxCell id="p1_r" value="R′ = H(P ⊕ S)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=9;rounded=1;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="62" y="240" width="100" height="22" as="geometry" />
+        </mxCell>
+
+        <!-- AUTH_RPRIME -->
+        <mxCell id="msg3" value="③ AUTH_RPRIME (R′, hidden in ECG)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="200" y="268" width="400" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="arr3" value="" style="endArrow=open;endSize=8;strokeColor=#333333;strokeWidth=1.5;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="284" as="sourcePoint" />
+            <mxPoint x="730" y="284" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- verify + Auth OK -->
+        <mxCell id="p1_verify" value="verify: R′ == H(P ⊕ S)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=9;rounded=1;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="726" y="286" width="120" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="msg4" value="④ Auth OK" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="300" y="310" width="260" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="arr4" value="" style="endArrow=open;endSize=8;strokeColor=#333333;strokeWidth=1.5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="325" as="sourcePoint" />
+            <mxPoint x="130" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- ========== Phase 2 背景框 ========== -->
+        <mxCell id="phase2_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#cccccc;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="55" y="308" width="800" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2_label" value="Phase 2 — Hidden DH Key Exchange" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#555555;" vertex="1" parent="1">
+          <mxGeometry x="200" y="313" width="460" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Sensor生成a,A -->
+        <mxCell id="p2_sa" value="a ← random&#xa;A = g^a mod p" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=9;rounded=1;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="726" y="336" width="110" height="34" as="geometry" />
+        </mxCell>
+
+        <!-- DH_M1 -->
+        <mxCell id="msg5" value="⑤ DH_M1 (A, hidden in ECG)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="200" y="376" width="400" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="arr5" value="" style="endArrow=open;endSize=8;strokeColor=#333333;strokeWidth=1.5;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="392" as="sourcePoint" />
+            <mxPoint x="130" y="392" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Host生成b,B,k_r -->
+        <mxCell id="p2_hb" value="b ← random&#xa;B = g^b mod p&#xa;k_r = KDF(A^b)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=9;rounded=1;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="62" y="398" width="110" height="46" as="geometry" />
+        </mxCell>
+
+        <!-- DH_M2 -->
+        <mxCell id="msg6" value="⑥ DH_M2 (B, hidden in ECG)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="200" y="450" width="400" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="arr6" value="" style="endArrow=open;endSize=8;strokeColor=#333333;strokeWidth=1.5;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="466" as="sourcePoint" />
+            <mxPoint x="730" y="466" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Sensor计算k_r -->
+        <mxCell id="p2_skr" value="k_r = KDF(B^a)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=9;rounded=1;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="726" y="468" width="110" height="22" as="geometry" />
+        </mxCell>
+
+        <!-- ========== Phase 3 背景框 ========== -->
+        <mxCell id="phase3_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#cccccc;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="55" y="504" width="800" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="phase3_label" value="Phase 3 — AES-GCM Encrypted Communication" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#555555;" vertex="1" parent="1">
+          <mxGeometry x="200" y="508" width="460" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Sensor加密 -->
+        <mxCell id="p3_enc" value="C = AES-256-GCM(k_r, M)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=9;rounded=1;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="706" y="530" width="148" height="22" as="geometry" />
+        </mxCell>
+
+        <!-- SECRET_HIDDEN -->
+        <mxCell id="msg7" value="⑦ SECRET_HIDDEN (ciphertext, hidden in ECG)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="160" y="558" width="480" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="arr7" value="" style="endArrow=open;endSize=8;strokeColor=#333333;strokeWidth=1.5;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="574" as="sourcePoint" />
+            <mxPoint x="130" y="574" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Host解密 -->
+        <mxCell id="p3_dec" value="M = AES-GCM⁻¹(k_r, C)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=9;rounded=1;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="62" y="580" width="140" height="22" as="geometry" />
+        </mxCell>
+
+        <!-- 图例说明 -->
+        <mxCell id="legend1" value="" style="endArrow=open;endSize=8;strokeColor=#333333;strokeWidth=1.5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="648" as="sourcePoint" />
+            <mxPoint x="260" y="648" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend1_text" value="Plaintext" style="text;html=1;fontSize=9;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="265" y="640" width="60" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="legend2" value="" style="endArrow=open;endSize=8;strokeColor=#333333;strokeWidth=1.5;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="648" as="sourcePoint" />
+            <mxPoint x="410" y="648" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend2_text" value="Hidden in ECG" style="text;html=1;fontSize=9;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="415" y="640" width="90" height="18" as="geometry" />
+        </mxCell>
+
+        <!-- ========== 底部参与者 ========== -->
+        <mxCell id="host_foot" value="Host" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="80" y="660" width="100" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="sensor_foot" value="Sensor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="680" y="660" width="100" height="36" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
