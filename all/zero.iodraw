@@ -37,7 +37,7 @@
           <mxGeometry x="766" y="117" width="72" height="22" as="geometry" />
         </mxCell>
         <mxCell id="msg1" value="① ACCESS_REQ(ID)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="230" y="155" width="400" height="16" as="geometry" />
+          <mxGeometry x="230" y="154" width="400" height="16" as="geometry" />
         </mxCell>
         <mxCell id="arr1" value="" style="endArrow=open;endSize=8;strokeColor=#333333;strokeWidth=1.5;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -49,7 +49,7 @@
           <mxGeometry x="752" y="199" width="100" height="34" as="geometry" />
         </mxCell>
         <mxCell id="msg2" value="② CHALLENGE_S (S, hidden in ECG)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="227" y="214" width="400" height="16" as="geometry" />
+          <mxGeometry x="230" y="214" width="400" height="16" as="geometry" />
         </mxCell>
         <mxCell id="arr2" value="" style="endArrow=open;endSize=8;strokeColor=#333333;strokeWidth=1.5;dashed=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
