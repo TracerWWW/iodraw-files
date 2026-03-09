@@ -121,7 +121,7 @@
           <mxGeometry x="745" y="533" width="148" height="22" as="geometry" />
         </mxCell>
         <mxCell id="msg7" value="⑦ SECRET_HIDDEN (ciphertext, hidden in ECG)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="160" y="558" width="480" height="16" as="geometry" />
+          <mxGeometry x="180" y="552" width="480" height="16" as="geometry" />
         </mxCell>
         <mxCell id="arr7" value="" style="endArrow=open;endSize=8;strokeColor=#333333;strokeWidth=1.5;dashed=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
