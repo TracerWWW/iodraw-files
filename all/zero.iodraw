@@ -94,7 +94,7 @@
           <mxGeometry x="726" y="336" width="110" height="34" as="geometry" />
         </mxCell>
         <mxCell id="msg5" value="⑤ DH_M1 (A, hidden in ECG)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="200" y="376" width="400" height="16" as="geometry" />
+          <mxGeometry x="226" y="370" width="400" height="16" as="geometry" />
         </mxCell>
         <mxCell id="arr5" value="" style="endArrow=open;endSize=8;strokeColor=#333333;strokeWidth=1.5;dashed=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
