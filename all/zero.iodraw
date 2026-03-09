@@ -72,10 +72,7 @@
         <mxCell id="p1_verify" value="verify: R′ == H(P ⊕ S)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=9;rounded=1;arcSize=20;" parent="1" vertex="1">
           <mxGeometry x="745" y="299" width="120" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="msg4" value="④ Auth OK" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="318.5" y="302" width="260" height="16" as="geometry" />
-        </mxCell>
-        <mxCell id="arr4" value="" style="endArrow=open;endSize=8;strokeColor=#333333;strokeWidth=1.5;" parent="1" edge="1">
+        <mxCell id="arr4" value="" style="endArrow=open;endSize=8;strokeColor=#333333;strokeWidth=1.5;" parent="1" edge="1" source="msg4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="730" y="325" as="sourcePoint" />
             <mxPoint x="130" y="325" as="targetPoint" />
@@ -112,13 +109,13 @@
           <mxGeometry x="747" y="481" width="110" height="22" as="geometry" />
         </mxCell>
         <mxCell id="phase3_label" value="Phase 3 — AES-GCM Encrypted Communication" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#555555;" parent="1" vertex="1">
-          <mxGeometry x="200" y="508" width="460" height="20" as="geometry" />
+          <mxGeometry x="218.5" y="519" width="460" height="20" as="geometry" />
         </mxCell>
         <mxCell id="p3_enc" value="C = AES-256-GCM(kr, M)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=9;rounded=1;arcSize=20;" parent="1" vertex="1">
           <mxGeometry x="742" y="539" width="126" height="22" as="geometry" />
         </mxCell>
         <mxCell id="msg7" value="⑦ SECRET_HIDDEN (ciphertext, hidden in ECG)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="180" y="552" width="480" height="16" as="geometry" />
+          <mxGeometry x="208.5" y="549" width="480" height="16" as="geometry" />
         </mxCell>
         <mxCell id="arr7" value="" style="endArrow=open;endSize=8;strokeColor=#333333;strokeWidth=1.5;dashed=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -152,6 +149,15 @@
         </mxCell>
         <mxCell id="sensor_foot" value="Sensor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="680" y="660" width="100" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="dRtruK2TQ1c5UfqO_LyD-2" value="" style="endArrow=open;endSize=8;strokeColor=#333333;strokeWidth=1.5;" edge="1" parent="1" target="msg4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="325" as="sourcePoint" />
+            <mxPoint x="130" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg4" value="④ Auth OK" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="300" y="305" width="260" height="16" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
