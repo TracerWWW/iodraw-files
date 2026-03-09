@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="24.7.17">
   <diagram name="Protocol" id="protocol">
-    <mxGraphModel dx="1646" dy="638" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="900" pageHeight="700" math="1" shadow="0">
+    <mxGraphModel dx="1442" dy="559" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="900" pageHeight="700" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -57,7 +57,7 @@
             <mxPoint x="130" y="234" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p1_r" value="R′ = H(P ⊕ S)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=12;rounded=1;arcSize=20;" parent="1" vertex="1">
+        <mxCell id="p1_r" value="R′ = H(K ⊕ S)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=12;rounded=1;arcSize=20;" parent="1" vertex="1">
           <mxGeometry x="17" y="252" width="94" height="22" as="geometry" />
         </mxCell>
         <mxCell id="msg3" value="③ AUTH_RPRIME (R′, hidden in ECG)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=12;" parent="1" vertex="1">
