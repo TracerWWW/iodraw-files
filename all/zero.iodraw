@@ -37,7 +37,7 @@
           <mxGeometry x="62" y="126" width="72" height="22" as="geometry" />
         </mxCell>
         <mxCell id="p1_note2" value="K = H(P)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=9;rounded=1;arcSize=20;" parent="1" vertex="1">
-          <mxGeometry x="726" y="126" width="72" height="22" as="geometry" />
+          <mxGeometry x="740" y="117" width="72" height="22" as="geometry" />
         </mxCell>
         <mxCell id="msg1" value="① ACCESS_REQ(ID)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="230" y="155" width="400" height="16" as="geometry" />
@@ -110,8 +110,8 @@
         </mxCell>
         <mxCell id="arr6" value="" style="endArrow=open;endSize=8;strokeColor=#333333;strokeWidth=1.5;dashed=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="130" y="466" as="sourcePoint" />
-            <mxPoint x="730" y="466" as="targetPoint" />
+            <mxPoint x="132" y="465" as="sourcePoint" />
+            <mxPoint x="732" y="465" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="p2_skr" value="k_r = KDF(B^a)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=9;rounded=1;arcSize=20;" parent="1" vertex="1">
