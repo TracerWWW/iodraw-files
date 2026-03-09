@@ -61,7 +61,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="p1_r" value="R′ = H(P ⊕ S)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=9;rounded=1;arcSize=20;" parent="1" vertex="1">
-          <mxGeometry x="62" y="240" width="100" height="22" as="geometry" />
+          <mxGeometry x="48" y="249" width="100" height="22" as="geometry" />
         </mxCell>
         <mxCell id="msg3" value="③ AUTH_RPRIME (R′, hidden in ECG)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="217" y="255" width="400" height="16" as="geometry" />
