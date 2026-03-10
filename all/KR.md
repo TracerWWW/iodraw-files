@@ -20,7 +20,7 @@ sequenceDiagram
 
     Sensor-->>Host: CHALLENGE_S (S, hidden)
 
-    Note left of Host: R′ = H(P ⊕ S)
+    Note left of Host: R′ = H(K ⊕ S)
 
     Host-->>Sensor: AUTH_RPRIME (R′, hidden)
 
