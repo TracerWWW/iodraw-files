@@ -69,7 +69,7 @@
             <mxPoint x="730" y="284" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p1_verify" value="verify: R′ == H(P ⊕ S)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=12;rounded=1;arcSize=20;" parent="1" vertex="1">
+        <mxCell id="p1_verify" value="verify: R′ == H(K ⊕ S)" style="text;html=1;strokeColor=none;fillColor=#fff9c4;align=center;fontSize=12;rounded=1;arcSize=20;" parent="1" vertex="1">
           <mxGeometry x="745" y="299" width="150" height="22" as="geometry" />
         </mxCell>
         <mxCell id="msg4" value="④ Auth OK" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=12;" parent="1" vertex="1">
