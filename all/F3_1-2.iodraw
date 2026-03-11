@@ -114,7 +114,7 @@
         <mxCell id="crc_left_box1" value="4bits" style="shape=rectangle;fillColor=#FFFFFF;strokeColor=#4570b5;strokeWidth=2;fontColor=#1E293B;fontSize=18;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="245" y="350" width="90" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="p0rVMbNVmpSFExKmqryS-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="crc_left_box2">
+        <mxCell id="p0rVMbNVmpSFExKmqryS-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#2a5caa;" edge="1" parent="1" source="crc_left_box2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="429.47" y="367.5" as="sourcePoint" />
             <mxPoint x="489.47" y="550" as="targetPoint" />
