@@ -76,6 +76,9 @@
         <mxCell id="uuir_QaCPq6biw7d_6ab-18" value="" style="strokeWidth=1.5;strokeColor=#64748B;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-90;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="220" y="240" width="40" height="180" as="geometry" />
         </mxCell>
+        <mxCell id="Lbv3FOIVKy9yvgfCzIk0-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uuir_QaCPq6biw7d_6ab-20" target="rt2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="uuir_QaCPq6biw7d_6ab-20" value="" style="strokeWidth=1.5;strokeColor=#64748B;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-90;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="620" y="240" width="40" height="180" as="geometry" />
         </mxCell>
@@ -92,7 +95,7 @@
           <mxGeometry x="640" y="380" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uuir_QaCPq6biw7d_6ab-21" value="CRC8 of Meaningful chars" style="text;html=1;fontColor=#334155;fontSize=16;align=center;verticalAlign=middle;fontFamily=Times New Roman;" parent="1" vertex="1">
-          <mxGeometry x="135" y="420" width="210" height="30" as="geometry" />
+          <mxGeometry x="-20" y="420" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uuir_QaCPq6biw7d_6ab-22" value="CRC8 of Meaningful chars" style="text;html=1;fontColor=#334155;fontSize=16;align=center;verticalAlign=middle;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="535" y="420" width="210" height="30" as="geometry" />
