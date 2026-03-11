@@ -158,7 +158,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="bus_route3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#3B82F6;strokeWidth=2;endArrow=block;endFill=1;" parent="1" edge="1">
+        <mxCell id="bus_route3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#2a5caa;strokeWidth=2;endArrow=block;endFill=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="380" y="385" as="sourcePoint" />
             <mxPoint x="555" y="550" as="targetPoint" />
@@ -168,7 +168,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="bus_route4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#3B82F6;strokeWidth=2;endArrow=block;endFill=1;" parent="1" edge="1">
+        <mxCell id="bus_route4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#2a5caa;strokeWidth=2;endArrow=block;endFill=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="660" y="385" as="sourcePoint" />
             <mxPoint x="485" y="550" as="targetPoint" />
