@@ -170,11 +170,10 @@
         </mxCell>
         <mxCell id="bus_route4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#2a5caa;strokeWidth=2;endArrow=block;endFill=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="660" y="385" as="sourcePoint" />
-            <mxPoint x="485" y="550" as="targetPoint" />
+            <mxPoint x="665" y="385" as="sourcePoint" />
+            <mxPoint x="490" y="550" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="660" y="510" />
-              <mxPoint x="485" y="510" />
+              <mxPoint x="665" y="550" />
             </Array>
           </mxGeometry>
         </mxCell>
