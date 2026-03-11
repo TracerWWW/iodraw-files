@@ -159,12 +159,12 @@
             <mxPoint x="645" y="550" as="targetPoint" />
             <Array as="points">
               <mxPoint x="750" y="440" />
-              <mxPoint x="660" y="440" />
+              <mxPoint x="695" y="440" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="rgb_b_box2" value="4bits" style="shape=rectangle;fillColor=#FFFFFF;strokeColor=#2A5CAA;strokeWidth=2;fontColor=#1E293B;fontSize=18;fontFamily=Times New Roman;" parent="1" vertex="1">
-          <mxGeometry x="650" y="550" width="90" height="35" as="geometry" />
+          <mxGeometry x="615" y="550" width="90" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
