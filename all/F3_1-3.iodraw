@@ -109,7 +109,7 @@
           <mxGeometry x="335" y="350" width="90" height="35" as="geometry" />
         </mxCell>
         <mxCell id="label_crc_left" value="CRC8 of Meaningful chars" style="text;html=1;fontColor=#475569;fontSize=16;align=center;fontFamily=Times New Roman;" parent="1" vertex="1">
-          <mxGeometry x="80" y="400" width="200" height="30" as="geometry" />
+          <mxGeometry x="290" y="400" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="crc_right_box1" value="4bits" style="shape=rectangle;fillColor=#FFFFFF;strokeColor=#2A5CAA;strokeWidth=2;fontColor=#1E293B;fontSize=18;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="615" y="350" width="90" height="35" as="geometry" />
@@ -173,8 +173,8 @@
             <mxPoint x="665" y="385" as="sourcePoint" />
             <mxPoint x="665" y="550" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="665" y="500" />
-              <mxPoint x="750" y="500" />
+              <mxPoint x="665" y="450" />
+              <mxPoint x="750" y="450" />
             </Array>
           </mxGeometry>
         </mxCell>
