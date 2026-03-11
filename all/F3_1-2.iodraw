@@ -102,6 +102,11 @@
             <mxPoint x="705" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="p0rVMbNVmpSFExKmqryS-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="crc_left_box1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="crc_left_box1" value="4bits" style="shape=rectangle;fillColor=#FFFFFF;strokeColor=#4570b5;strokeWidth=2;fontColor=#1E293B;fontSize=18;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="245" y="350" width="90" height="35" as="geometry" />
         </mxCell>
@@ -159,17 +164,6 @@
         </mxCell>
         <mxCell id="rgb_b_box2" value="4bits" style="shape=rectangle;fillColor=#FFFFFF;strokeColor=#2A5CAA;strokeWidth=2;fontColor=#1E293B;fontSize=18;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="615" y="550" width="90" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="p0rVMbNVmpSFExKmqryS-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#2a5caa;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="295" y="385" as="sourcePoint" />
-            <mxPoint x="205" y="550" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="295" y="440" />
-              <mxPoint x="450" y="440" />
-              <mxPoint x="450" y="550" />
-            </Array>
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
