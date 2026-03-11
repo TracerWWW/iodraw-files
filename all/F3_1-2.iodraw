@@ -139,13 +139,13 @@
           <mxGeometry x="770" y="395" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rgb_g_box1" value="" style="shape=rectangle;fillColor=#FFFFFF;strokeColor=#2A5CAA;strokeWidth=2;fontColor=#1E293B;fontSize=18;fontFamily=Times New Roman;" parent="1" vertex="1">
-          <mxGeometry x="350" y="550" width="90" height="35" as="geometry" />
+          <mxGeometry x="310" y="550" width="90" height="35" as="geometry" />
         </mxCell>
         <mxCell id="rgb_g_box2" value="4bits" style="shape=rectangle;fillColor=#FFFFFF;strokeColor=#2A5CAA;strokeWidth=2;fontColor=#1E293B;fontSize=18;fontFamily=Times New Roman;align=center;" parent="1" vertex="1">
-          <mxGeometry x="440" y="550" width="90" height="35" as="geometry" />
+          <mxGeometry x="400" y="550" width="90" height="35" as="geometry" />
         </mxCell>
         <mxCell id="label_rgb_g" value="RGB.G" style="text;html=1;fontColor=#1E293B;fontSize=18;fontStyle=1;align=center;fontFamily=Times New Roman;" parent="1" vertex="1">
-          <mxGeometry x="390" y="595" width="100" height="30" as="geometry" />
+          <mxGeometry x="360" y="595" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rgb_b_box1" value="" style="shape=rectangle;fillColor=#FFFFFF;strokeColor=#2A5CAA;strokeWidth=2;fontColor=#1E293B;fontSize=18;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="535" y="550" width="80" height="35" as="geometry" />
@@ -159,7 +159,7 @@
             <mxPoint x="645" y="550" as="targetPoint" />
             <Array as="points">
               <mxPoint x="750" y="440" />
-              <mxPoint x="695" y="440" />
+              <mxPoint x="660" y="440" />
             </Array>
           </mxGeometry>
         </mxCell>
