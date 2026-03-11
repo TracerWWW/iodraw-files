@@ -1,13 +1,9 @@
-<mxfile host="www.iodraw.com" version="24.7.17">
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="24.7.17">
   <diagram name="Academic-Style-Final" id="academic_final">
-    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="466" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        
-        <!-- ========================================== -->
-        <!-- 1. LEFT LABEL & POINTER                    -->
-        <!-- ========================================== -->
         <mxCell id="label_left" value="Meaningful and&lt;br&gt;checking chars" style="text;html=1;fontColor=#000000;fontSize=14;align=right;verticalAlign=middle;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="20" y="115" width="115" height="40" as="geometry" />
         </mxCell>
@@ -17,11 +13,6 @@
             <mxPoint x="150" y="135" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-
-        <!-- ========================================== -->
-        <!-- 2. DATA FRAME / MEMORY TAPE ARRAY          -->
-        <!-- ========================================== -->
-        <!-- Checking char: a -->
         <mxCell id="cell_a" value="a" style="shape=rectangle;fillColor=#F3F4F6;strokeColor=#000000;strokeWidth=1.5;fontColor=#8B0000;fontStyle=1;fontFamily=Times New Roman;fontSize=15;align=center;" parent="1" vertex="1">
           <mxGeometry x="150" y="120" width="40" height="30" as="geometry" />
         </mxCell>
@@ -34,7 +25,6 @@
         <mxCell id="cell_b" value="b" style="shape=rectangle;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;" parent="1" vertex="1">
           <mxGeometry x="290" y="120" width="40" height="30" as="geometry" />
         </mxCell>
-        <!-- Checking char: b+1 -->
         <mxCell id="cell_b1" value="b+1" style="shape=rectangle;fillColor=#F3F4F6;strokeColor=#000000;strokeWidth=1.5;fontColor=#8B0000;fontStyle=1;fontFamily=Times New Roman;fontSize=15;align=center;" parent="1" vertex="1">
           <mxGeometry x="330" y="120" width="40" height="30" as="geometry" />
         </mxCell>
@@ -47,14 +37,9 @@
         <mxCell id="cell_c" value="c" style="shape=rectangle;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;" parent="1" vertex="1">
           <mxGeometry x="470" y="120" width="40" height="30" as="geometry" />
         </mxCell>
-        <!-- Checking char: c+1 -->
         <mxCell id="cell_c1" value="c+1" style="shape=rectangle;fillColor=#F3F4F6;strokeColor=#000000;strokeWidth=1.5;fontColor=#8B0000;fontStyle=1;fontFamily=Times New Roman;fontSize=15;align=center;" parent="1" vertex="1">
           <mxGeometry x="510" y="120" width="40" height="30" as="geometry" />
         </mxCell>
-
-        <!-- ========================================== -->
-        <!-- 3. TOP ANNOTATIONS (Checking chars)        -->
-        <!-- ========================================== -->
         <mxCell id="text_chk1" value="Checking char" style="text;html=1;fontColor=#000000;fontSize=13;fontFamily=Times New Roman;align=center;" parent="1" vertex="1">
           <mxGeometry x="120" y="60" width="100" height="20" as="geometry" />
         </mxCell>
@@ -64,7 +49,6 @@
             <mxPoint x="170" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-
         <mxCell id="text_chk2" value="Checking char" style="text;html=1;fontColor=#000000;fontSize=13;fontFamily=Times New Roman;align=center;" parent="1" vertex="1">
           <mxGeometry x="300" y="60" width="100" height="20" as="geometry" />
         </mxCell>
@@ -74,7 +58,6 @@
             <mxPoint x="350" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-
         <mxCell id="text_chk3" value="Checking char" style="text;html=1;fontColor=#000000;fontSize=13;fontFamily=Times New Roman;align=center;" parent="1" vertex="1">
           <mxGeometry x="480" y="60" width="100" height="20" as="geometry" />
         </mxCell>
@@ -84,11 +67,6 @@
             <mxPoint x="530" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-
-        <!-- ========================================== -->
-        <!-- 4. ORTHOGONAL GROUPING BRACKETS            -->
-        <!-- ========================================== -->
-        <!-- Bracket 1: a+1 to b (Span: 190 to 330, Center: 260) -->
         <mxCell id="bracket1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#000000;strokeWidth=1.5;endArrow=none;startArrow=none;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="195" y="150" as="sourcePoint" />
@@ -101,15 +79,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <!-- Pointer to CRC1 -->
         <mxCell id="pointer1" style="endArrow=blockThin;endFill=1;endSize=5;strokeColor=#000000;strokeWidth=1.5;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="260" y="165" as="sourcePoint" />
             <mxPoint x="260" y="185" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-
-        <!-- Bracket 2: b+2 to c (Span: 370 to 510, Center: 440) -->
         <mxCell id="bracket2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#000000;strokeWidth=1.5;endArrow=none;startArrow=none;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="375" y="150" as="sourcePoint" />
@@ -122,62 +97,42 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <!-- Pointer to CRC2 -->
         <mxCell id="pointer2" style="endArrow=blockThin;endFill=1;endSize=5;strokeColor=#000000;strokeWidth=1.5;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="440" y="165" as="sourcePoint" />
             <mxPoint x="440" y="185" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-
-        <!-- ========================================== -->
-        <!-- 5. HASHING PROCESS BOXES (CRC-8)           -->
-        <!-- ========================================== -->
         <mxCell id="crc1_box" value="CRC-8 Checksum" style="shape=rectangle;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontColor=#000000;fontFamily=Times New Roman;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="200" y="185" width="120" height="25" as="geometry" />
         </mxCell>
-        <!-- Connector -->
         <mxCell id="conn1" style="endArrow=blockThin;endFill=1;endSize=4;strokeColor=#000000;strokeWidth=1.5;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="260" y="210" as="sourcePoint" />
             <mxPoint x="260" y="225" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-
         <mxCell id="crc2_box" value="CRC-8 Checksum" style="shape=rectangle;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontColor=#000000;fontFamily=Times New Roman;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="380" y="185" width="120" height="25" as="geometry" />
         </mxCell>
-        <!-- Connector -->
         <mxCell id="conn2" style="endArrow=blockThin;endFill=1;endSize=4;strokeColor=#000000;strokeWidth=1.5;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="440" y="210" as="sourcePoint" />
             <mxPoint x="440" y="225" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-
-        <!-- ========================================== -->
-        <!-- 6. 4-BITS SPLIT REGISTERS                  -->
-        <!-- ========================================== -->
-        <!-- CRC 1 Split -->
         <mxCell id="crc1_bits_L" value="4 bits" style="shape=rectangle;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontColor=#000000;fontFamily=Times New Roman;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="210" y="225" width="50" height="25" as="geometry" />
         </mxCell>
         <mxCell id="crc1_bits_R" value="4 bits" style="shape=rectangle;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontColor=#000000;fontFamily=Times New Roman;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="260" y="225" width="50" height="25" as="geometry" />
         </mxCell>
-
-        <!-- CRC 2 Split -->
         <mxCell id="crc2_bits_L" value="4 bits" style="shape=rectangle;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontColor=#000000;fontFamily=Times New Roman;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="390" y="225" width="50" height="25" as="geometry" />
         </mxCell>
         <mxCell id="crc2_bits_R" value="4 bits" style="shape=rectangle;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontColor=#000000;fontFamily=Times New Roman;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="440" y="225" width="50" height="25" as="geometry" />
         </mxCell>
-
-        <!-- ========================================== -->
-        <!-- 7. TARGET RGB REGISTERS                    -->
-        <!-- ========================================== -->
-        <!-- RGB.G Registration: Left(250-300), Right(300-350) - CENTER 300 -->
         <mxCell id="rgbG_bits_L" value="4 bits" style="shape=rectangle;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontColor=#000000;fontFamily=Times New Roman;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="250" y="320" width="50" height="25" as="geometry" />
         </mxCell>
@@ -187,8 +142,6 @@
         <mxCell id="txt_rgbG" value="RGB.G" style="text;html=1;fontColor=#000000;fontSize=14;fontFamily=Times New Roman;align=center;" parent="1" vertex="1">
           <mxGeometry x="250" y="350" width="100" height="20" as="geometry" />
         </mxCell>
-
-        <!-- RGB.B Registration: Left(350-400), Right(400-450) - CENTER 400 -->
         <mxCell id="rgbB_bits_L" value="4 bits" style="shape=rectangle;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontColor=#000000;fontFamily=Times New Roman;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="350" y="320" width="50" height="25" as="geometry" />
         </mxCell>
@@ -198,12 +151,6 @@
         <mxCell id="txt_rgbB" value="RGB.B" style="text;html=1;fontColor=#000000;fontSize=14;fontFamily=Times New Roman;align=center;" parent="1" vertex="1">
           <mxGeometry x="350" y="350" width="100" height="20" as="geometry" />
         </mxCell>
-
-        <!-- ========================================== -->
-        <!-- 8. PRECISION BUS ROUTING (STRICT ORTHOGONAL) -->
-        <!-- ========================================== -->
-        
-        <!-- Path 1: C1_L (235) to RGB.G_L (275) -->
         <mxCell id="route_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#000000;strokeWidth=1.25;endArrow=blockThin;endFill=1;endSize=5;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="235" y="250" as="sourcePoint" />
@@ -214,8 +161,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-
-        <!-- Path 2: C2_R (465) to RGB.B_R (425) -->
         <mxCell id="route_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#000000;strokeWidth=1.25;endArrow=blockThin;endFill=1;endSize=5;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="465" y="250" as="sourcePoint" />
@@ -226,8 +171,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-
-        <!-- Path 3: C1_R (285) to RGB.B_L (375) - Has 1 intersection -->
         <mxCell id="route_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#000000;strokeWidth=1.25;endArrow=blockThin;endFill=1;endSize=5;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="285" y="250" as="sourcePoint" />
@@ -238,8 +181,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-
-        <!-- Path 4: C2_L (415) to RGB.G_R (325) - Crosses Path 3 perfectly at (375, 295) -->
         <mxCell id="route_4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#000000;strokeWidth=1.25;endArrow=blockThin;endFill=1;endSize=5;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="415" y="250" as="sourcePoint" />
@@ -250,7 +191,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-
       </root>
     </mxGraphModel>
   </diagram>
