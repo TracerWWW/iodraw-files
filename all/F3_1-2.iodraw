@@ -126,7 +126,7 @@
         <mxCell id="label_crc_right" value="CRC8 of Meaningful chars" style="text;html=1;fontColor=#475569;fontSize=16;align=center;fontFamily=Times New Roman;strokeColor=#f7f7f7;" parent="1" vertex="1">
           <mxGeometry x="770" y="395" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rgb_g_box1" value="4bits" style="shape=rectangle;fillColor=#FFFFFF;strokeColor=#2A5CAA;strokeWidth=2;fontColor=#1E293B;fontSize=18;fontFamily=Times New Roman;" parent="1" vertex="1">
+        <mxCell id="rgb_g_box1" value="" style="shape=rectangle;fillColor=#FFFFFF;strokeColor=#2A5CAA;strokeWidth=2;fontColor=#1E293B;fontSize=18;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="350" y="550" width="90" height="35" as="geometry" />
         </mxCell>
         <mxCell id="rgb_g_box2" value="4bits" style="shape=rectangle;fillColor=#FFFFFF;strokeColor=#2A5CAA;strokeWidth=2;fontColor=#1E293B;fontSize=18;fontFamily=Times New Roman;align=center;" parent="1" vertex="1">
@@ -155,8 +155,8 @@
             <mxPoint x="292.47" y="385" as="sourcePoint" />
             <mxPoint x="467.47" y="550" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="292.47" y="490" />
-              <mxPoint x="467.47" y="490" />
+              <mxPoint x="292" y="490" />
+              <mxPoint x="468" y="490" />
             </Array>
           </mxGeometry>
         </mxCell>
