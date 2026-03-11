@@ -29,7 +29,7 @@
           <mxGeometry x="570" y="54" width="110" height="62" as="geometry" />
         </mxCell>
         <mxCell id="nD" value="Chars with&#xa;correcting&#xa;info." style="rounded=1;shadow=1;whiteSpace=wrap;html=1;fillColor=#FFEDD5;strokeColor=#F97316;fontColor=#111827;fontFamily=Times New Roman;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry y="209" width="125" height="62" as="geometry" />
+          <mxGeometry y="214.5" width="125" height="51" as="geometry" />
         </mxCell>
         <mxCell id="nE" value="Chars with&#xa;encrypted&#xa;correcting info." style="rounded=1;shadow=1;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#4F46E5;fontColor=#111827;fontFamily=Times New Roman;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="180" y="209" width="165" height="62" as="geometry" />
