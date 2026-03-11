@@ -64,7 +64,7 @@
             <mxPoint x="720" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uuir_QaCPq6biw7d_6ab-38" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.67;dx=15;notch=0;strokeWidth=1;fillColor=#F8FAFC;strokeColor=#94A3B8;fontFamily=Times New Roman;" parent="1" vertex="1">
+        <mxCell id="uuir_QaCPq6biw7d_6ab-38" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.67;dx=15;notch=0;strokeWidth=1;fillColor=#F8FAFC;strokeColor=#330000;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="30" y="265" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="uuir_QaCPq6biw7d_6ab-39" value="Meaningful&lt;br&gt;and&lt;br&gt;checking&lt;br&gt;chars" style="text;html=1;fontColor=#334155;fontSize=18;align=center;verticalAlign=middle;fontFamily=Times New Roman;" parent="1" vertex="1">
@@ -98,7 +98,7 @@
           <mxGeometry x="-20" y="420" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uuir_QaCPq6biw7d_6ab-22" value="CRC8 of Meaningful chars" style="text;html=1;fontColor=#334155;fontSize=16;align=center;verticalAlign=middle;fontFamily=Times New Roman;" parent="1" vertex="1">
-          <mxGeometry x="535" y="420" width="210" height="30" as="geometry" />
+          <mxGeometry x="710" y="425" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lb1" value="4bits" style="fillColor=#FFFFFF;strokeColor=#64748B;fontColor=#1E293B;strokeWidth=1.5;align=center;fontSize=17;fontFamily=Times New Roman;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="300" y="520" width="80" height="30" as="geometry" />
