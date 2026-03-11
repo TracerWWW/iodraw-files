@@ -96,7 +96,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pointer_right" style="endArrow=block;endFill=1;strokeColor=#475569;strokeWidth=2;" parent="1" edge="1">
+        <mxCell id="pointer_right" style="endArrow=block;endFill=1;strokeColor=#2a5189;strokeWidth=2;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="705" y="310" as="sourcePoint" />
             <mxPoint x="705" y="350" as="targetPoint" />
