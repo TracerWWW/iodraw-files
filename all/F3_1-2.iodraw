@@ -102,12 +102,14 @@
             <mxPoint x="705" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p0rVMbNVmpSFExKmqryS-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#2a5caa;" edge="1" parent="1" source="crc_left_box1">
+        <mxCell id="p0rVMbNVmpSFExKmqryS-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#2a5caa;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="490" y="550" as="targetPoint" />
+            <mxPoint x="470" y="525" as="targetPoint" />
+            <mxPoint x="270" y="360" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="290" y="470" />
-              <mxPoint x="490" y="470" />
+              <mxPoint x="270" y="445" />
+              <mxPoint x="430" y="445" />
+              <mxPoint x="430" y="525" />
             </Array>
           </mxGeometry>
         </mxCell>
