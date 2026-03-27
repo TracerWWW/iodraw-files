@@ -5,7 +5,6 @@ sequenceDiagram
     participant C as 密文通道
     participant R as 接收端 / 提取端
 
-    Note over S: 版本A：参考值/镜像值方案
 
     S->>S: 选择参考值 R
     S->>S: 选择消息比特 bit
