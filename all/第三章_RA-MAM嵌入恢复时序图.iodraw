@@ -1,76 +1,119 @@
-<mxfile host="app.diagrams.net" modified="2026-06-12T00:00:00.000Z" agent="Codex" version="26.0.0" type="device">
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0" version="24.7.17">
   <diagram id="ra-mam-sequence" name="RA-MAM嵌入恢复时序图">
-    <mxGraphModel dx="1900" dy="980" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="980" math="0" shadow="0">
+    <mxGraphModel dx="1489" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="980" math="0" shadow="0">
       <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
-        <mxCell id="frame" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;fillColor=#FFFFFF;strokeColor=#D5E0EC;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="42" y="42" width="1816" height="895" as="geometry"/>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="frame" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;fillColor=#FFFFFF;strokeColor=#D5E0EC;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="42" y="42" width="1816" height="895" as="geometry" />
         </mxCell>
-        <mxCell id="title" value="嵌入与恢复时序图" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=28;fontColor=#192C46;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="78" y="72" width="520" height="45" as="geometry"/>
+        <mxCell id="title" value="嵌入与恢复时序图" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=28;fontColor=#192C46;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="78" y="72" width="520" height="45" as="geometry" />
         </mxCell>
-
-        <mxCell id="a_sender" value="发送端" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#E8F2FC;strokeColor=#335C8C;strokeWidth=2;fontSize=26;fontColor=#162235;" vertex="1" parent="1">
-          <mxGeometry x="55" y="146" width="230" height="74" as="geometry"/>
+        <mxCell id="a_sender" value="发送端" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#E8F2FC;strokeColor=#335C8C;strokeWidth=2;fontSize=26;fontColor=#162235;" parent="1" vertex="1">
+          <mxGeometry x="55" y="146" width="230" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="a_mapping" value="RA-MAM&lt;br&gt;映射模块" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#EBF7F2;strokeColor=#2F765C;strokeWidth=2;fontSize=26;fontColor=#162235;" vertex="1" parent="1">
-          <mxGeometry x="405" y="146" width="230" height="74" as="geometry"/>
+        <mxCell id="a_mapping" value="RA-MAM&lt;br&gt;映射模块" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#EBF7F2;strokeColor=#2F765C;strokeWidth=2;fontSize=26;fontColor=#162235;" parent="1" vertex="1">
+          <mxGeometry x="405" y="146" width="230" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="a_diffusion" value="Stable Diffusion&lt;br&gt;采样/反演" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#EEEFFD;strokeColor=#5052A0;strokeWidth=2;fontSize=26;fontColor=#162235;" vertex="1" parent="1">
-          <mxGeometry x="785" y="146" width="230" height="74" as="geometry"/>
+        <mxCell id="a_diffusion" value="Stable Diffusion&lt;br&gt;采样/反演" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#EEEFFD;strokeColor=#5052A0;strokeWidth=2;fontSize=26;fontColor=#162235;" parent="1" vertex="1">
+          <mxGeometry x="785" y="146" width="230" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="a_channel" value="传输信道" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#FCF4E8;strokeColor=#96662B;strokeWidth=2;fontSize=26;fontColor=#162235;" vertex="1" parent="1">
-          <mxGeometry x="1165" y="146" width="230" height="74" as="geometry"/>
+        <mxCell id="a_channel" value="传输信道" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#FCF4E8;strokeColor=#96662B;strokeWidth=2;fontSize=26;fontColor=#162235;" parent="1" vertex="1">
+          <mxGeometry x="1165" y="146" width="230" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="a_receiver" value="接收端" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#F5EDF8;strokeColor=#7E498A;strokeWidth=2;fontSize=26;fontColor=#162235;" vertex="1" parent="1">
-          <mxGeometry x="1525" y="146" width="230" height="74" as="geometry"/>
+        <mxCell id="a_receiver" value="接收端" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#F5EDF8;strokeColor=#7E498A;strokeWidth=2;fontSize=26;fontColor=#162235;" parent="1" vertex="1">
+          <mxGeometry x="1525" y="146" width="230" height="74" as="geometry" />
         </mxCell>
-
-        <mxCell id="l1" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#BCC8D6;strokeWidth=2;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="170" y="231" as="sourcePoint"/><mxPoint x="170" y="900" as="targetPoint"/></mxGeometry></mxCell>
-        <mxCell id="l2" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#BCC8D6;strokeWidth=2;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="520" y="231" as="sourcePoint"/><mxPoint x="520" y="900" as="targetPoint"/></mxGeometry></mxCell>
-        <mxCell id="l3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#BCC8D6;strokeWidth=2;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="900" y="231" as="sourcePoint"/><mxPoint x="900" y="900" as="targetPoint"/></mxGeometry></mxCell>
-        <mxCell id="l4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#BCC8D6;strokeWidth=2;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="1280" y="231" as="sourcePoint"/><mxPoint x="1280" y="900" as="targetPoint"/></mxGeometry></mxCell>
-        <mxCell id="l5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#BCC8D6;strokeWidth=2;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="1640" y="231" as="sourcePoint"/><mxPoint x="1640" y="900" as="targetPoint"/></mxGeometry></mxCell>
-
-        <mxCell id="m1" value="载荷 b、可靠性图 R、参数 r" style="endArrow=block;html=1;rounded=0;strokeColor=#1F2937;strokeWidth=3;fontSize=22;fontColor=#1F2937;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry"><mxPoint x="170" y="272" as="sourcePoint"/><mxPoint x="520" y="272" as="targetPoint"/></mxGeometry>
+        <mxCell id="l1" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#BCC8D6;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="231" as="sourcePoint" />
+            <mxPoint x="170" y="900" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="note1" value="选择高可靠位置&lt;br&gt;二元/四元编码" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#EFF9F4;strokeColor=#529672;strokeWidth=2;fontSize=23;fontColor=#2D323A;" vertex="1" parent="1">
-          <mxGeometry x="390" y="291" width="260" height="76" as="geometry"/>
+        <mxCell id="l2" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#BCC8D6;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="231" as="sourcePoint" />
+            <mxPoint x="520" y="900" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="m2" value="生成初始潜变量 z_T" style="endArrow=block;html=1;rounded=0;strokeColor=#1F2937;strokeWidth=3;fontSize=22;fontColor=#1F2937;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry"><mxPoint x="520" y="376" as="sourcePoint"/><mxPoint x="900" y="376" as="targetPoint"/></mxGeometry>
+        <mxCell id="l3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#BCC8D6;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="231" as="sourcePoint" />
+            <mxPoint x="900" y="900" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="note2" value="正交扩散 QMQ^T&lt;br&gt;随机置乱 Π" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#F4F8FE;strokeColor=#6384B0;strokeWidth=2;fontSize=23;fontColor=#2D323A;" vertex="1" parent="1">
-          <mxGeometry x="580" y="396" width="260" height="76" as="geometry"/>
+        <mxCell id="l4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#BCC8D6;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="231" as="sourcePoint" />
+            <mxPoint x="1280" y="900" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="m3" value="文本条件采样并 VAE 解码" style="endArrow=block;html=1;rounded=0;strokeColor=#1F2937;strokeWidth=3;fontSize=22;fontColor=#1F2937;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry"><mxPoint x="900" y="480" as="sourcePoint"/><mxPoint x="1280" y="480" as="targetPoint"/></mxGeometry>
+        <mxCell id="l5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#BCC8D6;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1640" y="231" as="sourcePoint" />
+            <mxPoint x="1640" y="900" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="note3" value="DPM-Solver++&lt;br&gt;P → I" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#F3F3FE;strokeColor=#6F70B6;strokeWidth=2;fontSize=23;fontColor=#2D323A;" vertex="1" parent="1">
-          <mxGeometry x="960" y="502" width="260" height="75" as="geometry"/>
+        <mxCell id="m1" value="载荷 b、可靠性图 R、参数 r" style="endArrow=block;html=1;rounded=0;strokeColor=#1F2937;strokeWidth=3;fontSize=22;fontColor=#1F2937;labelBackgroundColor=#FFFFFF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="272" as="sourcePoint" />
+            <mxPoint x="520" y="272" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="m4" value="图像 I 经存储/压缩/扰动" style="endArrow=block;html=1;rounded=0;strokeColor=#1F2937;strokeWidth=3;fontSize=22;fontColor=#1F2937;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry"><mxPoint x="1280" y="586" as="sourcePoint"/><mxPoint x="1640" y="586" as="targetPoint"/></mxGeometry>
+        <mxCell id="note1" value="选择高可靠位置&lt;br&gt;二元/四元编码" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#EFF9F4;strokeColor=#529672;strokeWidth=2;fontSize=23;fontColor=#2D323A;" parent="1" vertex="1">
+          <mxGeometry x="390" y="291" width="260" height="76" as="geometry" />
         </mxCell>
-        <mxCell id="m5" value="接收图像 I'，VAE 编码与反向采样" style="endArrow=block;html=1;rounded=0;dashed=1;strokeColor=#1F2937;strokeWidth=3;fontSize=22;fontColor=#1F2937;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry"><mxPoint x="1640" y="690" as="sourcePoint"/><mxPoint x="900" y="690" as="targetPoint"/></mxGeometry>
+        <mxCell id="m2" value="生成初始潜变量 z_T" style="endArrow=block;html=1;rounded=0;strokeColor=#1F2937;strokeWidth=3;fontSize=22;fontColor=#1F2937;labelBackgroundColor=#FFFFFF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="376" as="sourcePoint" />
+            <mxPoint x="900" y="376" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="note4" value="估计恢复潜变量&lt;br&gt;z'_T" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#F3F3FE;strokeColor=#6F70B6;strokeWidth=2;fontSize=23;fontColor=#2D323A;" vertex="1" parent="1">
-          <mxGeometry x="770" y="712" width="260" height="75" as="geometry"/>
+        <mxCell id="note2" value="正交扩散 QMQ^T&lt;br&gt;随机置乱 Π" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#F4F8FE;strokeColor=#6384B0;strokeWidth=2;fontSize=23;fontColor=#2D323A;" parent="1" vertex="1">
+          <mxGeometry x="580" y="396" width="260" height="76" as="geometry" />
         </mxCell>
-        <mxCell id="m6" value="逆置乱与逆正交变换" style="endArrow=block;html=1;rounded=0;dashed=1;strokeColor=#1F2937;strokeWidth=3;fontSize=22;fontColor=#1F2937;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry"><mxPoint x="900" y="796" as="sourcePoint"/><mxPoint x="520" y="796" as="targetPoint"/></mxGeometry>
+        <mxCell id="m3" value="文本条件采样并 VAE 解码" style="endArrow=block;html=1;rounded=0;strokeColor=#1F2937;strokeWidth=3;fontSize=22;fontColor=#1F2937;labelBackgroundColor=#FFFFFF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="480" as="sourcePoint" />
+            <mxPoint x="1280" y="480" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="note5" value="最近电平判决&lt;br&gt;置信度/CRC 修正" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#EFF9F4;strokeColor=#529672;strokeWidth=2;fontSize=23;fontColor=#2D323A;" vertex="1" parent="1">
-          <mxGeometry x="390" y="817" width="260" height="76" as="geometry"/>
+        <mxCell id="note3" value="DPM-Solver++&lt;br&gt;P → I" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#F3F3FE;strokeColor=#6F70B6;strokeWidth=2;fontSize=23;fontColor=#2D323A;" parent="1" vertex="1">
+          <mxGeometry x="960" y="502" width="260" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="m7" value="输出恢复载荷 b' 与提取准确率" style="endArrow=block;html=1;rounded=0;dashed=1;strokeColor=#1F2937;strokeWidth=3;fontSize=22;fontColor=#1F2937;labelBackgroundColor=#FFFFFF;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry"><mxPoint x="520" y="900" as="sourcePoint"/><mxPoint x="1640" y="900" as="targetPoint"/></mxGeometry>
+        <mxCell id="m4" value="图像 I 经存储/压缩/扰动" style="endArrow=block;html=1;rounded=0;strokeColor=#1F2937;strokeWidth=3;fontSize=22;fontColor=#1F2937;labelBackgroundColor=#FFFFFF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="586" as="sourcePoint" />
+            <mxPoint x="1640" y="586" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="caption" value="注：实线表示嵌入与生成阶段，虚线表示反演与恢复阶段。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=21;fontColor=#5C6876;" vertex="1" parent="1">
-          <mxGeometry x="78" y="912" width="900" height="35" as="geometry"/>
+        <mxCell id="m5" value="接收图像 I&#39;，VAE 编码与反向采样" style="endArrow=block;html=1;rounded=0;dashed=1;strokeColor=#1F2937;strokeWidth=3;fontSize=22;fontColor=#1F2937;labelBackgroundColor=#FFFFFF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1640" y="690" as="sourcePoint" />
+            <mxPoint x="900" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="note4" value="估计恢复潜变量&lt;br&gt;z&#39;_T" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#F3F3FE;strokeColor=#6F70B6;strokeWidth=2;fontSize=23;fontColor=#2D323A;" parent="1" vertex="1">
+          <mxGeometry x="770" y="712" width="260" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="m6" value="逆置乱与逆正交变换" style="endArrow=block;html=1;rounded=0;dashed=1;strokeColor=#1F2937;strokeWidth=3;fontSize=22;fontColor=#1F2937;labelBackgroundColor=#FFFFFF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="796" as="sourcePoint" />
+            <mxPoint x="520" y="796" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="note5" value="最近电平判决&lt;br&gt;置信度/CRC 修正" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#EFF9F4;strokeColor=#529672;strokeWidth=2;fontSize=23;fontColor=#2D323A;" parent="1" vertex="1">
+          <mxGeometry x="390" y="817" width="260" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="m7" value="输出恢复载荷 b&#39; 与提取准确率" style="endArrow=block;html=1;rounded=0;dashed=1;strokeColor=#1F2937;strokeWidth=3;fontSize=22;fontColor=#1F2937;labelBackgroundColor=#FFFFFF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="900" as="sourcePoint" />
+            <mxPoint x="1640" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="caption" value="注：实线表示嵌入与生成阶段，虚线表示反演与恢复阶段。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=21;fontColor=#5C6876;" parent="1" vertex="1">
+          <mxGeometry x="78" y="912" width="900" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
