@@ -112,7 +112,7 @@
             <mxPoint x="1640" y="900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="caption" value="注：实线表示嵌入与生成阶段，虚线表示反演与恢复阶段。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=21;fontColor=#5C6876;" parent="1" vertex="1">
+        <mxCell id="caption" value="实线表示嵌入与生成阶段，虚线表示反演与恢复阶段。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=21;fontColor=#5C6876;" parent="1" vertex="1">
           <mxGeometry x="78" y="912" width="900" height="35" as="geometry" />
         </mxCell>
       </root>
