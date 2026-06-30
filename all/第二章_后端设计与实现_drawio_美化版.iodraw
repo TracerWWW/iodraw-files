@@ -64,7 +64,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="page2" name="图2-2 数据模型关系图">
-    <mxGraphModel dx="2811" dy="895" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1954" dy="428" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -131,7 +131,7 @@
         <mxCell id="r5" value="统计数据来源" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;dashed=1;strokeColor=#D49432;strokeWidth=2;fontSize=13;" parent="1" source="analysis" target="house" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="252" y="555" />
+              <mxPoint x="253" y="555" />
               <mxPoint x="905" y="555" />
             </Array>
           </mxGeometry>
