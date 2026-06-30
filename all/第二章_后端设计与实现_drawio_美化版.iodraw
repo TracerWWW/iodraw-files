@@ -64,7 +64,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="page2" name="图2-2 数据模型关系图">
-    <mxGraphModel dx="1042" dy="559" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="466" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -72,7 +72,7 @@
           <mxGeometry x="380" y="35" width="410" height="45" as="geometry" />
         </mxCell>
         <mxCell id="user" value="User 用户表&lt;hr&gt;&lt;div align=&quot;left&quot;&gt;id&lt;br&gt;username&lt;br&gt;password&lt;br&gt;email&lt;/div&gt;" style="swimlane;html=1;whiteSpace=wrap;fillColor=#EEF2FF;strokeColor=#667EEA;fontSize=15;fontStyle=1;startSize=32;" parent="1" vertex="1">
-          <mxGeometry x="56" y="115" width="200" height="155" as="geometry">
+          <mxGeometry x="50" y="97" width="195" height="156" as="geometry">
             <mxRectangle x="56" y="115" width="116" height="119" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
