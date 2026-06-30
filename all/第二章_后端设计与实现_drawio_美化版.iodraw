@@ -100,7 +100,7 @@
         <mxCell id="analysis" value="AnalysisResult 分析结果表&lt;hr&gt;&lt;div align=&quot;left&quot;&gt;analysis_type&lt;br&gt;city / region&lt;br&gt;metric_name&lt;br&gt;metric_value&lt;/div&gt;" style="swimlane;html=1;whiteSpace=wrap;fillColor=#FFF4DD;strokeColor=#D49432;fontSize=15;fontStyle=1;startSize=32;" parent="1" vertex="1">
           <mxGeometry x="115" y="585" width="275" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="spider" value="SpiderLog 爬虫日志表&lt;hr&gt;&lt;div align=&quot;left&quot;&gt;source_url&lt;br&gt;success_count / fail_count&lt;br&gt;status&lt;br&gt;start_time / end_time&lt;/div&gt;" style="swimlane;html=1;whiteSpace=wrap;fillColor=#FFF4DD;strokeColor=#D49432;fontSize=15;fontStyle=1;startSize=32;" parent="1" vertex="1">
+        <mxCell id="spider" value="" style="swimlane;html=1;whiteSpace=wrap;fillColor=#FFF4DD;strokeColor=#D49432;fontSize=15;fontStyle=1;startSize=32;" parent="1" vertex="1">
           <mxGeometry x="765" y="585" width="275" height="160" as="geometry" />
         </mxCell>
         <mxCell id="note2" value="说明：收藏记录和浏览记录分别关联 User 与 HouseInfo；AnalysisResult 用于缓存统计结果，SpiderLog 用于记录爬虫采集运行情况。" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F9FAFB;strokeColor=#CBD5E1;fontSize=14;align=left;spacing=12;" parent="1" vertex="1">
@@ -132,6 +132,9 @@
         </mxCell>
         <mxCell id="r6" value="采集日志记录" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;dashed=1;strokeColor=#D49432;strokeWidth=2;fontSize=13;" parent="1" source="spider" target="house" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JVAcv4_nTOt6dNp5Z8w3-10" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;SpiderLog 爬虫日志表&lt;/span&gt;&lt;hr style=&quot;forced-color-adjust: none; font-family: Helvetica; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;div align=&quot;left&quot; style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;source_url&lt;br style=&quot;forced-color-adjust: none;&quot;&gt;success_count / fail_count&lt;br style=&quot;forced-color-adjust: none;&quot;&gt;status&lt;br style=&quot;forced-color-adjust: none;&quot;&gt;start_time / end_time&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1264.25" y="535.0000152587891" width="220" height="129" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
