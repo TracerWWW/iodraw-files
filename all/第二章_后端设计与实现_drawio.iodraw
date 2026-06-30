@@ -1,72 +1,166 @@
-<mxfile host="app.diagrams.net" modified="2026-06-30T17:20:00.000Z" agent="Codex" version="24.7.17" type="device">
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0" version="24.7.17" pages="3">
   <diagram id="backend-flow" name="图2-1 后端请求处理流程图">
-    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1042" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
-        <mxCell id="t1" value="图2-1 后端请求处理流程图" style="text;html=1;strokeColor=none;fillColor=none;fontSize=22;fontStyle=1;fontColor=#1f2937;" vertex="1" parent="1"><mxGeometry x="360" y="30" width="420" height="40" as="geometry"/></mxCell>
-        <mxCell id="a1" value="用户访问页面" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f1ff;strokeColor=#4c78a8;fontSize=15;" vertex="1" parent="1"><mxGeometry x="470" y="95" width="220" height="52" as="geometry"/></mxCell>
-        <mxCell id="a2" value="urls.py&lt;br&gt;路由匹配" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f1ff;strokeColor=#4c78a8;fontSize=15;" vertex="1" parent="1"><mxGeometry x="470" y="175" width="220" height="58" as="geometry"/></mxCell>
-        <mxCell id="a3" value="views.py&lt;br&gt;处理请求和业务逻辑" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f1ff;strokeColor=#4c78a8;fontSize=15;" vertex="1" parent="1"><mxGeometry x="470" y="265" width="220" height="58" as="geometry"/></mxCell>
-        <mxCell id="a4" value="models.py&lt;br&gt;调用数据模型" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f1ff;strokeColor=#4c78a8;fontSize=15;" vertex="1" parent="1"><mxGeometry x="470" y="355" width="220" height="58" as="geometry"/></mxCell>
-        <mxCell id="a5" value="MySQL 数据库&lt;br&gt;house_info 等数据表" style="shape=cylinder3d;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#e8f5e9;strokeColor=#4b8b5b;fontSize=15;" vertex="1" parent="1"><mxGeometry x="470" y="445" width="220" height="72" as="geometry"/></mxCell>
-        <mxCell id="a6" value="返回模板页面&lt;br&gt;或 JSON 数据" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7e6;strokeColor=#d49432;fontSize=15;" vertex="1" parent="1"><mxGeometry x="470" y="555" width="220" height="58" as="geometry"/></mxCell>
-        <mxCell id="a7" value="前端页面 / ECharts / 百度地图展示" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f1ff;strokeColor=#4c78a8;fontSize=15;" vertex="1" parent="1"><mxGeometry x="430" y="645" width="300" height="56" as="geometry"/></mxCell>
-        <mxCell id="note1" value="对应代码：house/urls.py、house/views.py、house/models.py" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff9db;strokeColor=#c9a227;fontSize=13;" vertex="1" parent="1"><mxGeometry x="365" y="735" width="430" height="42" as="geometry"/></mxCell>
-        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#555555;" edge="1" parent="1" source="a1" target="a2"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#555555;" edge="1" parent="1" source="a2" target="a3"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#555555;" edge="1" parent="1" source="a3" target="a4"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#555555;" edge="1" parent="1" source="a4" target="a5"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#555555;" edge="1" parent="1" source="a5" target="a6"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#555555;" edge="1" parent="1" source="a6" target="a7"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t1" value="图2-1 后端请求处理流程图" style="text;html=1;strokeColor=none;fillColor=none;fontSize=22;fontStyle=1;fontColor=#1f2937;" parent="1" vertex="1">
+          <mxGeometry x="360" y="30" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" value="用户访问页面" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f1ff;strokeColor=#4c78a8;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="470" y="95" width="220" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" value="urls.py&lt;br&gt;路由匹配" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f1ff;strokeColor=#4c78a8;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="470" y="175" width="220" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="a3" value="views.py&lt;br&gt;处理请求和业务逻辑" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f1ff;strokeColor=#4c78a8;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="470" y="265" width="220" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="a4" value="models.py&lt;br&gt;调用数据模型" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f1ff;strokeColor=#4c78a8;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="470" y="355" width="220" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="a5" value="MySQL 数据库&lt;br&gt;house_info 等数据表" style="shape=cylinder3d;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#e8f5e9;strokeColor=#4b8b5b;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="470" y="445" width="220" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="a6" value="返回模板页面&lt;br&gt;或 JSON 数据" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7e6;strokeColor=#d49432;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="470" y="555" width="220" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="a7" value="前端页面 / ECharts / 百度地图展示" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f1ff;strokeColor=#4c78a8;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="430" y="645" width="300" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="note1" value="对应代码：house/urls.py、house/views.py、house/models.py" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff9db;strokeColor=#c9a227;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="365" y="735" width="430" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#555555;" parent="1" source="a1" target="a2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#555555;" parent="1" source="a2" target="a3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#555555;" parent="1" source="a3" target="a4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#555555;" parent="1" source="a4" target="a5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#555555;" parent="1" source="a5" target="a6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#555555;" parent="1" source="a6" target="a7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="data-model" name="图2-2 数据模型关系图">
-    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1042" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
-        <mxCell id="t2" value="图2-2 数据模型关系图" style="text;html=1;strokeColor=none;fillColor=none;fontSize=22;fontStyle=1;fontColor=#1f2937;" vertex="1" parent="1"><mxGeometry x="365" y="30" width="420" height="40" as="geometry"/></mxCell>
-        <mxCell id="u" value="User 用户表&lt;hr&gt;id&lt;br&gt;username&lt;br&gt;password&lt;br&gt;email" style="swimlane;html=1;whiteSpace=wrap;fillColor=#eef2ff;strokeColor=#667eea;fontSize=14;" vertex="1" parent="1"><mxGeometry x="70" y="115" width="190" height="150" as="geometry"/></mxCell>
-        <mxCell id="h" value="HouseInfo 房源信息表&lt;hr&gt;id&lt;br&gt;city / region / quyu&lt;br&gt;mingcheng / huxing&lt;br&gt;mianji / price&lt;br&gt;jingdu / weidu&lt;br&gt;maidian / jieshao / jiaotong" style="swimlane;html=1;whiteSpace=wrap;fillColor=#e8f5e9;strokeColor=#4b8b5b;fontSize=14;" vertex="1" parent="1"><mxGeometry x="850" y="105" width="230" height="210" as="geometry"/></mxCell>
-        <mxCell id="f" value="FavoriteHouse 收藏记录表&lt;hr&gt;id&lt;br&gt;user_id&lt;br&gt;house_id&lt;br&gt;created_at" style="swimlane;html=1;whiteSpace=wrap;fillColor=#e8f1ff;strokeColor=#4c78a8;fontSize=14;" vertex="1" parent="1"><mxGeometry x="455" y="95" width="220" height="150" as="geometry"/></mxCell>
-        <mxCell id="b" value="BrowsingHistory 浏览历史表&lt;hr&gt;id&lt;br&gt;user_id&lt;br&gt;house_id&lt;br&gt;view_count&lt;br&gt;last_viewed_at" style="swimlane;html=1;whiteSpace=wrap;fillColor=#e8f1ff;strokeColor=#4c78a8;fontSize=14;" vertex="1" parent="1"><mxGeometry x="455" y="285" width="220" height="165" as="geometry"/></mxCell>
-        <mxCell id="ar" value="AnalysisResult 分析结果表&lt;hr&gt;analysis_type&lt;br&gt;city / region&lt;br&gt;metric_name&lt;br&gt;metric_value" style="swimlane;html=1;whiteSpace=wrap;fillColor=#fff7e6;strokeColor=#d49432;fontSize=14;" vertex="1" parent="1"><mxGeometry x="120" y="560" width="245" height="155" as="geometry"/></mxCell>
-        <mxCell id="sl" value="SpiderLog 爬虫日志表&lt;hr&gt;source_url&lt;br&gt;success_count&lt;br&gt;fail_count&lt;br&gt;status&lt;br&gt;start_time / end_time" style="swimlane;html=1;whiteSpace=wrap;fillColor=#fff7e6;strokeColor=#d49432;fontSize=14;" vertex="1" parent="1"><mxGeometry x="770" y="560" width="245" height="170" as="geometry"/></mxCell>
-        <mxCell id="n1" value="1 : N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1"><mxGeometry x="345" y="150" width="50" height="24" as="geometry"/></mxCell>
-        <mxCell id="n2" value="1 : N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1"><mxGeometry x="720" y="150" width="50" height="24" as="geometry"/></mxCell>
-        <mxCell id="n3" value="1 : N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1"><mxGeometry x="345" y="360" width="50" height="24" as="geometry"/></mxCell>
-        <mxCell id="n4" value="1 : N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1"><mxGeometry x="720" y="360" width="50" height="24" as="geometry"/></mxCell>
-        <mxCell id="r1" value="收藏" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERone;strokeColor=#555555;" edge="1" parent="1" source="u" target="f"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="r2" value="被收藏" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERone;startArrow=ERmany;strokeColor=#555555;" edge="1" parent="1" source="f" target="h"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="r3" value="浏览" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERone;strokeColor=#555555;" edge="1" parent="1" source="u" target="b"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="r4" value="被浏览" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERone;startArrow=ERmany;strokeColor=#555555;" edge="1" parent="1" source="b" target="h"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="r5" value="为图表接口提供统计缓存" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;dashed=1;strokeColor=#d49432;" edge="1" parent="1" source="ar" target="h"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="r6" value="记录数据采集运行状态" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;dashed=1;strokeColor=#d49432;" edge="1" parent="1" source="sl" target="h"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t2" value="图2-2 数据模型关系图" style="text;html=1;strokeColor=none;fillColor=none;fontSize=22;fontStyle=1;fontColor=#1f2937;" parent="1" vertex="1">
+          <mxGeometry x="365" y="30" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u" value="User 用户表&lt;hr&gt;id&lt;br&gt;username&lt;br&gt;password&lt;br&gt;email" style="swimlane;html=1;whiteSpace=wrap;fillColor=#eef2ff;strokeColor=#667eea;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="70" y="115" width="190" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="h" value="HouseInfo 房源信息表&lt;hr&gt;id&lt;br&gt;city / region / quyu&lt;br&gt;mingcheng / huxing&lt;br&gt;mianji / price&lt;br&gt;jingdu / weidu&lt;br&gt;maidian / jieshao / jiaotong" style="swimlane;html=1;whiteSpace=wrap;fillColor=#e8f5e9;strokeColor=#4b8b5b;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="850" y="105" width="230" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="f" value="FavoriteHouse 收藏记录表&lt;hr&gt;id&lt;br&gt;user_id&lt;br&gt;house_id&lt;br&gt;created_at" style="swimlane;html=1;whiteSpace=wrap;fillColor=#e8f1ff;strokeColor=#4c78a8;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="455" y="95" width="220" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="b" value="BrowsingHistory 浏览历史表&lt;hr&gt;id&lt;br&gt;user_id&lt;br&gt;house_id&lt;br&gt;view_count&lt;br&gt;last_viewed_at" style="swimlane;html=1;whiteSpace=wrap;fillColor=#e8f1ff;strokeColor=#4c78a8;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="455" y="285" width="220" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="ar" value="AnalysisResult 分析结果表&lt;hr&gt;analysis_type&lt;br&gt;city / region&lt;br&gt;metric_name&lt;br&gt;metric_value" style="swimlane;html=1;whiteSpace=wrap;fillColor=#fff7e6;strokeColor=#d49432;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="120" y="560" width="245" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="sl" value="SpiderLog 爬虫日志表&lt;hr&gt;source_url&lt;br&gt;success_count&lt;br&gt;fail_count&lt;br&gt;status&lt;br&gt;start_time / end_time" style="swimlane;html=1;whiteSpace=wrap;fillColor=#fff7e6;strokeColor=#d49432;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="770" y="560" width="245" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="1 : N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="345" y="150" width="50" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="1 : N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="720" y="150" width="50" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="1 : N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="345" y="360" width="50" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="1 : N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="720" y="360" width="50" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="r1" value="收藏" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERone;strokeColor=#555555;" parent="1" source="u" target="f" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r2" value="被收藏" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERone;startArrow=ERmany;strokeColor=#555555;" parent="1" source="f" target="h" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r3" value="浏览" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERone;strokeColor=#555555;" parent="1" source="u" target="b" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r4" value="被浏览" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERone;startArrow=ERmany;strokeColor=#555555;" parent="1" source="b" target="h" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r5" value="为图表接口提供统计缓存" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;dashed=1;strokeColor=#d49432;" parent="1" source="ar" target="h" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r6" value="记录数据采集运行状态" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;dashed=1;strokeColor=#d49432;" parent="1" source="sl" target="h" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="api-flow" name="图2-3 可视化接口数据流程图">
     <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
-        <mxCell id="t3" value="图2-3 可视化接口数据流程图" style="text;html=1;strokeColor=none;fillColor=none;fontSize=22;fontStyle=1;fontColor=#1f2937;" vertex="1" parent="1"><mxGeometry x="345" y="30" width="460" height="40" as="geometry"/></mxCell>
-        <mxCell id="c1" value="前端页面&lt;br&gt;charts.js / ECharts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f1ff;strokeColor=#4c78a8;fontSize=15;" vertex="1" parent="1"><mxGeometry x="70" y="135" width="210" height="70" as="geometry"/></mxCell>
-        <mxCell id="c2" value="请求 API&lt;br&gt;/api/overview 等" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f1ff;strokeColor=#4c78a8;fontSize=15;" vertex="1" parent="1"><mxGeometry x="350" y="135" width="210" height="70" as="geometry"/></mxCell>
-        <mxCell id="c3" value="Django 接口视图&lt;br&gt;views.py" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f1ff;strokeColor=#4c78a8;fontSize=15;" vertex="1" parent="1"><mxGeometry x="630" y="135" width="210" height="70" as="geometry"/></mxCell>
-        <mxCell id="c4" value="查询数据&lt;br&gt;HouseInfo / AnalysisResult" style="shape=cylinder3d;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#e8f5e9;strokeColor=#4b8b5b;fontSize=15;" vertex="1" parent="1"><mxGeometry x="900" y="130" width="220" height="82" as="geometry"/></mxCell>
-        <mxCell id="c5" value="统计整理&lt;br&gt;房源数量 / 均价 / 区间 / 地图点位" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7e6;strokeColor=#d49432;fontSize=15;" vertex="1" parent="1"><mxGeometry x="630" y="300" width="250" height="80" as="geometry"/></mxCell>
-        <mxCell id="c6" value="JsonResponse&lt;br&gt;返回 JSON 数据" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7e6;strokeColor=#d49432;fontSize=15;" vertex="1" parent="1"><mxGeometry x="350" y="305" width="210" height="70" as="geometry"/></mxCell>
-        <mxCell id="c7" value="ECharts 图表&lt;br&gt;百度地图位置展示" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f1ff;strokeColor=#4c78a8;fontSize=15;" vertex="1" parent="1"><mxGeometry x="70" y="305" width="210" height="70" as="geometry"/></mxCell>
-        <mxCell id="apiTable" value="主要接口&lt;hr&gt;api_overview：总体概览&lt;br&gt;api_province_count / api_province_price：城市数量和均价&lt;br&gt;api_district_count / api_district_price：地区数量和均价&lt;br&gt;api_price_range / api_year_count：价格区间和年份分布&lt;br&gt;api_word_cloud：房源关键词&lt;br&gt;api_map_points：地图点位&lt;br&gt;api_predict_price：预测价格" style="swimlane;html=1;whiteSpace=wrap;fillColor=#f8fbff;strokeColor=#4c78a8;fontSize=14;" vertex="1" parent="1"><mxGeometry x="205" y="495" width="760" height="220" as="geometry"/></mxCell>
-        <mxCell id="ce1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#555555;" edge="1" parent="1" source="c1" target="c2"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="ce2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#555555;" edge="1" parent="1" source="c2" target="c3"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="ce3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#555555;" edge="1" parent="1" source="c3" target="c4"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="ce4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#555555;" edge="1" parent="1" source="c4" target="c5"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="ce5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#555555;" edge="1" parent="1" source="c5" target="c6"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="ce6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#555555;" edge="1" parent="1" source="c6" target="c7"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t3" value="图2-3 可视化接口数据流程图" style="text;html=1;strokeColor=none;fillColor=none;fontSize=22;fontStyle=1;fontColor=#1f2937;" vertex="1" parent="1">
+          <mxGeometry x="345" y="30" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c1" value="前端页面&lt;br&gt;charts.js / ECharts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f1ff;strokeColor=#4c78a8;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="70" y="135" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" value="请求 API&lt;br&gt;/api/overview 等" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f1ff;strokeColor=#4c78a8;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="350" y="135" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" value="Django 接口视图&lt;br&gt;views.py" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f1ff;strokeColor=#4c78a8;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="630" y="135" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" value="查询数据&lt;br&gt;HouseInfo / AnalysisResult" style="shape=cylinder3d;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#e8f5e9;strokeColor=#4b8b5b;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="900" y="130" width="220" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" value="统计整理&lt;br&gt;房源数量 / 均价 / 区间 / 地图点位" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7e6;strokeColor=#d49432;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="630" y="300" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" value="JsonResponse&lt;br&gt;返回 JSON 数据" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7e6;strokeColor=#d49432;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="350" y="305" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" value="ECharts 图表&lt;br&gt;百度地图位置展示" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f1ff;strokeColor=#4c78a8;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="70" y="305" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="apiTable" value="主要接口&lt;hr&gt;api_overview：总体概览&lt;br&gt;api_province_count / api_province_price：城市数量和均价&lt;br&gt;api_district_count / api_district_price：地区数量和均价&lt;br&gt;api_price_range / api_year_count：价格区间和年份分布&lt;br&gt;api_word_cloud：房源关键词&lt;br&gt;api_map_points：地图点位&lt;br&gt;api_predict_price：预测价格" style="swimlane;html=1;whiteSpace=wrap;fillColor=#f8fbff;strokeColor=#4c78a8;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="205" y="495" width="760" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="ce1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#555555;" edge="1" parent="1" source="c1" target="c2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ce2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#555555;" edge="1" parent="1" source="c2" target="c3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ce3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#555555;" edge="1" parent="1" source="c3" target="c4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ce4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#555555;" edge="1" parent="1" source="c4" target="c5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ce5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#555555;" edge="1" parent="1" source="c5" target="c6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ce6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#555555;" edge="1" parent="1" source="c6" target="c7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
