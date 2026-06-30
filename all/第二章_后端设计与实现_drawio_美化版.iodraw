@@ -72,7 +72,7 @@
           <mxGeometry x="380" y="35" width="410" height="45" as="geometry" />
         </mxCell>
         <mxCell id="user" value="User 用户表&lt;hr&gt;&lt;div align=&quot;left&quot;&gt;id&lt;br&gt;username&lt;br&gt;password&lt;br&gt;email&lt;/div&gt;" style="swimlane;html=1;whiteSpace=wrap;fillColor=#EEF2FF;strokeColor=#667EEA;fontSize=15;fontStyle=1;startSize=32;" parent="1" vertex="1">
-          <mxGeometry x="65" y="111" width="200" height="155" as="geometry" />
+          <mxGeometry x="56" y="115" width="200" height="155" as="geometry" />
         </mxCell>
         <mxCell id="fav" value="FavoriteHouse 收藏记录表&lt;hr&gt;&lt;div align=&quot;left&quot;&gt;id&lt;br&gt;user_id&lt;br&gt;house_id&lt;br&gt;created_at&lt;/div&gt;" style="swimlane;html=1;whiteSpace=wrap;fillColor=#EAF2FF;strokeColor=#4C78A8;fontSize=15;fontStyle=1;startSize=32;" parent="1" vertex="1">
           <mxGeometry x="360" y="115" width="235" height="160" as="geometry" />
