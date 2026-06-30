@@ -72,7 +72,7 @@
           <mxGeometry x="380" y="35" width="410" height="45" as="geometry" />
         </mxCell>
         <mxCell id="user" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;User 用户表&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;hr style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;id&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;username&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;password&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;email&lt;/span&gt;&lt;/span&gt;" style="swimlane;html=1;whiteSpace=wrap;fillColor=#EEF2FF;strokeColor=#667EEA;fontSize=15;fontStyle=1;startSize=32;align=center;" parent="1" vertex="1">
-          <mxGeometry x="59" y="95" width="195" height="156" as="geometry">
+          <mxGeometry x="58" y="76" width="195" height="156" as="geometry">
             <mxRectangle x="56" y="115" width="116" height="119" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
