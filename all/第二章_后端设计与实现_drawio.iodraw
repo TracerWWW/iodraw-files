@@ -112,53 +112,56 @@
     </mxGraphModel>
   </diagram>
   <diagram id="api-flow" name="图2-3 可视化接口数据流程图">
-    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1042" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="t3" value="图2-3 可视化接口数据流程图" style="text;html=1;strokeColor=none;fillColor=none;fontSize=22;fontStyle=1;fontColor=#1f2937;" vertex="1" parent="1">
+        <mxCell id="t3" value="图2-3 可视化接口数据流程图" style="text;html=1;strokeColor=none;fillColor=none;fontSize=22;fontStyle=1;fontColor=#1f2937;" parent="1" vertex="1">
           <mxGeometry x="345" y="30" width="460" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="c1" value="前端页面&lt;br&gt;charts.js / ECharts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f1ff;strokeColor=#4c78a8;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="c1" value="前端页面&lt;br&gt;charts.js / ECharts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f1ff;strokeColor=#4c78a8;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="70" y="135" width="210" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="c2" value="请求 API&lt;br&gt;/api/overview 等" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f1ff;strokeColor=#4c78a8;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="c2" value="请求 API&lt;br&gt;/api/overview 等" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f1ff;strokeColor=#4c78a8;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="350" y="135" width="210" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="c3" value="Django 接口视图&lt;br&gt;views.py" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f1ff;strokeColor=#4c78a8;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="c3" value="Django 接口视图&lt;br&gt;views.py" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f1ff;strokeColor=#4c78a8;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="630" y="135" width="210" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="c4" value="查询数据&lt;br&gt;HouseInfo / AnalysisResult" style="shape=cylinder3d;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#e8f5e9;strokeColor=#4b8b5b;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="c4" value="查询数据&lt;br&gt;HouseInfo / AnalysisResult" style="shape=cylinder3d;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#e8f5e9;strokeColor=#4b8b5b;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="900" y="130" width="220" height="82" as="geometry" />
         </mxCell>
-        <mxCell id="c5" value="统计整理&lt;br&gt;房源数量 / 均价 / 区间 / 地图点位" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7e6;strokeColor=#d49432;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="c5" value="统计整理&lt;br&gt;房源数量 / 均价 / 区间 / 地图点位" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7e6;strokeColor=#d49432;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="630" y="300" width="250" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="c6" value="JsonResponse&lt;br&gt;返回 JSON 数据" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7e6;strokeColor=#d49432;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="c6" value="JsonResponse&lt;br&gt;返回 JSON 数据" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7e6;strokeColor=#d49432;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="350" y="305" width="210" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="c7" value="ECharts 图表&lt;br&gt;百度地图位置展示" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f1ff;strokeColor=#4c78a8;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="c7" value="ECharts 图表&lt;br&gt;百度地图位置展示" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f1ff;strokeColor=#4c78a8;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="70" y="305" width="210" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="apiTable" value="主要接口&lt;hr&gt;api_overview：总体概览&lt;br&gt;api_province_count / api_province_price：城市数量和均价&lt;br&gt;api_district_count / api_district_price：地区数量和均价&lt;br&gt;api_price_range / api_year_count：价格区间和年份分布&lt;br&gt;api_word_cloud：房源关键词&lt;br&gt;api_map_points：地图点位&lt;br&gt;api_predict_price：预测价格" style="swimlane;html=1;whiteSpace=wrap;fillColor=#f8fbff;strokeColor=#4c78a8;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="apiTable" value="主要接口&lt;hr&gt;api_overview：总体概览&lt;br&gt;api_province_count / api_province_price：城市数量和均价&lt;br&gt;api_district_count / api_district_price：地区数量和均价&lt;br&gt;api_price_range / api_year_count：价格区间和年份分布&lt;br&gt;api_word_cloud：房源关键词&lt;br&gt;api_map_points：地图点位&lt;br&gt;api_predict_price：预测价格" style="swimlane;html=1;whiteSpace=wrap;fillColor=#f8fbff;strokeColor=#4c78a8;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="205" y="495" width="760" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="ce1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#555555;" edge="1" parent="1" source="c1" target="c2">
+        <mxCell id="ce1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#555555;" parent="1" source="c1" target="c2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ce2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#555555;" edge="1" parent="1" source="c2" target="c3">
+        <mxCell id="ce2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#555555;" parent="1" source="c2" target="c3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ce3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#555555;" edge="1" parent="1" source="c3" target="c4">
+        <mxCell id="ce3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#555555;" parent="1" source="c3" target="c4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ce4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#555555;" edge="1" parent="1" source="c4" target="c5">
+        <mxCell id="ce4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#555555;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="895" y="176" as="sourcePoint" />
+            <mxPoint x="750" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ce5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#555555;" parent="1" source="c5" target="c6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ce5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#555555;" edge="1" parent="1" source="c5" target="c6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ce6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#555555;" edge="1" parent="1" source="c6" target="c7">
+        <mxCell id="ce6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#555555;" parent="1" source="c6" target="c7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
