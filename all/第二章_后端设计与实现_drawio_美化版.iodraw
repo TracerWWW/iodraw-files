@@ -64,7 +64,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="page2" name="图2-2 数据模型关系图">
-    <mxGraphModel dx="772" dy="1241" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="772" dy="414" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -75,6 +75,9 @@
           <mxGeometry x="58" y="76" width="195" height="156" as="geometry">
             <mxRectangle x="56" y="115" width="116" height="119" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="JVAcv4_nTOt6dNp5Z8w3-3" value="&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 15px;&quot;&gt;User 用户表&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;forced-color-adjust: none; font-family: Helvetica; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: initial; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-weight: normal;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; background-color: initial;&quot;&gt;id&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; background-color: initial;&quot;&gt;username&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; background-color: initial;&quot;&gt;password&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; background-color: initial;&quot;&gt;email&lt;/span&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="user">
+          <mxGeometry x="43" y="-8" width="109" height="131" as="geometry" />
         </mxCell>
         <mxCell id="fav" value="FavoriteHouse 收藏记录表&lt;hr&gt;&lt;div align=&quot;left&quot;&gt;id&lt;br&gt;user_id&lt;br&gt;house_id&lt;br&gt;created_at&lt;/div&gt;" style="swimlane;html=1;whiteSpace=wrap;fillColor=#EAF2FF;strokeColor=#4C78A8;fontSize=15;fontStyle=1;startSize=32;" parent="1" vertex="1">
           <mxGeometry x="360" y="115" width="235" height="160" as="geometry" />
@@ -120,9 +123,6 @@
         </mxCell>
         <mxCell id="r6" value="采集日志记录" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;dashed=1;strokeColor=#D49432;strokeWidth=2;fontSize=13;" parent="1" source="spider" target="house" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="JVAcv4_nTOt6dNp5Z8w3-3" value="&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 15px;&quot;&gt;User 用户表&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;forced-color-adjust: none; font-family: Helvetica; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: initial; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-weight: normal;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; background-color: initial;&quot;&gt;id&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; background-color: initial;&quot;&gt;username&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; background-color: initial;&quot;&gt;password&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; background-color: initial;&quot;&gt;email&lt;/span&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="181.99911310369302" y="-94.00271617542626" width="109" height="129" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
